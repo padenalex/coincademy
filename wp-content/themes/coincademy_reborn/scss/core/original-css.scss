@@ -297,7 +297,7 @@ button {
 
 /* homepage spec header*/ 
 
-header.homepage {
+.general-page {
     padding-top: 140px;
     padding-bottom: 80px;
 }
@@ -766,6 +766,7 @@ header .arrow-btn {
     font-weight: 700;
     font-size: 0.85em;
     margin-left: 1px;
+    text-transform: uppercase;
 }
 
 /* content section with assymetric top */

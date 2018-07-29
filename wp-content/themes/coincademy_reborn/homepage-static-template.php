@@ -1,6 +1,6 @@
 <?php /* Template Name: Homepage static */ get_header(); ?>
 
-    <header class="homepage">
+    <header class="homepage general-page">
         <div class="max-width">
             <div class="pure-g vmid">
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
