@@ -1,0 +1,68 @@
+.menu-list {
+    list-style: none;
+   /* text-align: center; */
+    margin: auto auto;
+    padding: 0px;
+}
+.white-nav .menu-list li {
+    color: #fff;
+}
+.white-nav .menu-list li:hover, .white-nav .menu-list li:active {
+    border-color: #fff;
+}
+
+
+.menu-list li, .menu-bg .menu-list li {
+    display: inline-block;
+    font-size: 0.95em;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: #029cf2;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    padding: 1px 2px 3px;
+}
+.menu-list li:hover, .menu-list li:active, .menu-list .current-menu-item, .menu-bg .menu-list li:hover, .menu-bg .menu-list li:active, .menu-bg .menu-list .current-menu-item {
+    border-color: #029cf2;
+}
+
+
+
+.menu-list li:first-child {
+    margin-left: 0px;
+}
+
+.menu-list li ul {
+    position: absolute;
+    padding: 20px 20px;
+    display: none;
+}
+
+.menu-list li ul li {
+    margin-left: 0px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.login-btn, .menu-bg .login-btn {
+    color: #35cc63;
+    margin-right: 15px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+}
+.white-nav .login-btn:hover {
+    border-color: #fff;
+}
+.login-btn:hover, .menu-bg .login-btn:hover, .login-btn:active, .menu-bg .login-btn:active {
+    border-color: #35cc63;
+}
+
+
+.white-nav .green-btn:hover {
+    box-shadow: 0px 3px 20px rgba(224,224,224,0.35);
+    background: #ffffff;
+}
+.menu-bg.white-nav .green-btn:hover {
+background: $color-green;
+}

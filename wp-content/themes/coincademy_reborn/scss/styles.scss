@@ -1,0 +1,28 @@
+@import "core/base";
+@import "core/original-css";
+
+@import "components/nav";
+
+.llms-course-nav a li {
+	background: transparent;
+	color: $color-blue;
+	box-shadow: none;
+}
+// Single Course Signup Page
+.llms-course-outline {
+	font-size: 1rem;
+}
+.llms-widget-syllabus ul li {
+	margin-bottom: 1.5rem;
+}
+.section-title {
+	font-size: 1.15rem;
+}
+
+
+// footer
+.social-icon img {
+	width: 2rem;
+	height: 2rem;
+	margin-left: 1rem;
+}
