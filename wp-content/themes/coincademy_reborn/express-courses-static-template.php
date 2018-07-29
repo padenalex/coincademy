@@ -4,6 +4,13 @@
         <div class="max-width">
             <div class="pure-g vmid">
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                    <div class="title">
+                        <span>CHOOSE YOUR PATH</span>
+                        <h2>Custom-tailored courses</h2>
+                    </div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
+                    </p>
                     <!-- Begin MailChimp Signup Form -->
                     <div id="mc_embed_signup">
                     <form action="https://claritysquared.us14.list-manage.com/subscribe/post?u=ff6674079e649d6b6a3db4ad9&amp;id=2e073ea0e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -42,8 +49,25 @@
 
                     <!--End mc_embed_signup-->
                 </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">
+                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid" data-relative-input="true" data-hover-only="true"  data-pointer-events="true" id="scene">
+                  <a style="margin-left: 60%; opacity: .7;" data-depth="0.2" href="/course-category/investing/">
+                      <div class="category-tile investor vmid">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/investor-category.png" class="category-tile-img" />
+                          <span class="category-tile-title">INVESTORS</span>
+                      </div>
+                    </a>
+                    <a style="margin-left: 5%; opacity: .8;" data-depth="0.2" href="/standard-courses/">
+                      <div class="category-tile vmid">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/general-category.png" class="category-tile-img" />
+                          <span class="category-tile-title">GENERAL</span>
+                      </div>
+                    </a>
+                    <a style="margin-left: 30%; margin-top: 20%;" data-depth="1" href="/course-category/developer/">
+                      <div class="category-tile developer vmid">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/developer-category.png" class="category-tile-img" />
+                          <span class="category-tile-title">DEVELOPERS</span>
+                      </div>
+                    </a>
                 </div>
             </div>
         </div>
