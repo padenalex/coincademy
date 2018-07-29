@@ -28,9 +28,6 @@ bower_components
 .sass_cache
 .codekit-cache
 
-# My Files
-MY FILES
-
 # WordPress Specific
 # This is a template .gitignore file for git-managed WordPress projects.
 #
