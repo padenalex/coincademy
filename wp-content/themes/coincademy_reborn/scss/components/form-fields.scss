@@ -39,6 +39,7 @@ input:focus {
 input[type=submit] {
 	max-width: 10rem;
 	margin-top: .5rem;
+  border: none;
 }
 textarea {
 	@extend input;

@@ -50,6 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 </section>
 
 <?php do_action( 'lifterlms_after_main_content' ); ?>
+<?php get_template_part( 'templates/template', 'express-courses-footer' ); ?>
 
 <?php do_action( 'lifterlms_sidebar' ); ?>
 

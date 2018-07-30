@@ -1339,7 +1339,8 @@ input:focus, textarea:focus {
 
 input[type=submit], textarea[type=submit] {
   max-width: 10rem;
-  margin-top: .5rem; }
+  margin-top: .5rem;
+  border: none; }
 
 textarea {
   min-height: 6rem;
@@ -1488,3 +1489,6 @@ textarea {
   width: 2rem;
   height: 2rem;
   margin-left: 1rem; }
+
+.social-icon:hover img {
+  opacity: .8; }
