@@ -28,7 +28,7 @@
                 </div> 
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid" data-relative-input="true" data-hover-only="true"  data-pointer-events="true" id="scene">
                   <a style="margin-left: 60%; opacity: .7;" data-depth="0.2" href="/course-category/investing/">
-                      <div class="category-tile investor vmid">
+                      <div class="category-tile category-tile-green vmid">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/investor-category.png" class="category-tile-img" />
                           <span class="category-tile-title">INVESTORS</span>
                       </div>
@@ -40,7 +40,7 @@
                       </div>
                     </a>
                     <a style="margin-left: 30%; margin-top: 20%;" data-depth="1" href="/course-category/developer/">
-                      <div class="category-tile developer vmid">
+                      <div class="category-tile category-tile-red vmid">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/developer-category.png" class="category-tile-img" />
                           <span class="category-tile-title">DEVELOPERS</span>
                       </div>

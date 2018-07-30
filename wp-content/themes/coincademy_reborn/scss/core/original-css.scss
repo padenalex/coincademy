@@ -340,12 +340,12 @@ button {
 	opacity: 1 !important;
 }
 
-.category-tile.investor:hover {
+.category-tile-green:hover {
     background: #35cc63;
     background-image: linear-gradient(to bottom, #35cc63, #87e177);
 }
 
-.category-tile.developer:hover {
+.category-tile-red:hover {
     background: #fa478f;
     background-image: linear-gradient(to bottom, #fa478f, #fb8973);
 }

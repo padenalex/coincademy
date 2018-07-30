@@ -1,6 +1,7 @@
 @import "core/base";
 @import "core/original-css";
 
+@import "components/form-fields";
 @import "components/nav";
 
 .llms-course-nav a li {
@@ -17,6 +18,18 @@
 }
 .section-title {
 	font-size: 1.15rem;
+}
+
+
+// buttons
+.btn-large {
+	font-size: 1rem;
+	padding: .5rem 2rem;
+}
+
+#mc_embed_signup {
+	overflow: auto;
+	padding-bottom: 2rem;
 }
 
 
