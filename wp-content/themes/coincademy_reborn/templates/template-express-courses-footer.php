@@ -12,11 +12,11 @@
         </div> 
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 section-desc">
             <ul class="features-list">
-                <li><img src="http://andrews-macbook-pro.local:5757/wp-content/themes/coincademy_reborn/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are jews and we like jews. lol nope</span></div></li>
-                <li><img src="http://andrews-macbook-pro.local:5757/wp-content/themes/coincademy_reborn/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
-                <li><img src="http://andrews-macbook-pro.local:5757/wp-content/themes/coincademy_reborn/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
-                <li><img src="http://andrews-macbook-pro.local:5757/wp-content/themes/coincademy_reborn/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
-                <li><img src="http://andrews-macbook-pro.local:5757/wp-content/themes/coincademy_reborn/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are jews and we like jews. lol nope</span></div></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
             </ul>
         </div> 
     </div>
