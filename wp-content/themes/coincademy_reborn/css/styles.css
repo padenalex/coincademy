@@ -1473,8 +1473,9 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
-  font-size: .9rem;
-  color: #5c5c61; }
+  font-size: .83rem;
+  color: #5c5c61;
+  margin-top: .5rem; }
 
 .nav-sidebar .llms-widget-syllabus .llms-section {
   margin-bottom: .8rem; }
