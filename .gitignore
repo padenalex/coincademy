@@ -28,6 +28,7 @@ bower_components
 .sass_cache
 .codekit-cache
 
+# MY FILES
 # WordPress Specific
 # This is a template .gitignore file for git-managed WordPress projects.
 #
@@ -50,14 +51,14 @@ bower_components
 # Ignore everything in the "wp-content" directory, except the "plugins"
 # and "themes" directories.
 wp-content/*
-!wp-content/plugins/
+# !wp-content/plugins/
 !wp-content/themes/
 !wp-content/uploads/
 
 # Ignore everything in the "plugins" directory, except the plugins you
 # specify (see the commented-out examples for hints on how to do this.)
-wp-content/plugins/*
-!wp-content/plugins/lifterlms/
+# wp-content/plugins/*
+# !wp-content/plugins/lifterlms/
 
 # Ignore everything in the "themes" directory, except the themes you
 # specify (see the commented-out example for a hint on how to do this.)
