@@ -62,7 +62,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<li>
 
 							<span class="llms-lesson-complete <?php echo ( $is_complete ? 'done' : '' ); ?>">
-								<i class="fa fa-check-circle"></i>
 							</span>
 
 							<?php do_action( 'lifterlms_outline_before_lesson_title', $lesson ); ?>

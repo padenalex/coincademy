@@ -39,7 +39,7 @@ $show_button = $quiz_id ? false : true;
 
 		<?php if ( apply_filters( 'llms_show_mark_complete_button', $show_button, $lesson ) ) : ?>
 
-			<?php echo apply_filters( 'llms_lesson_complete_text', __( 'Lesson Complete', 'lifterlms' ) ); ?>
+			<?php echo apply_filters( 'llms_lesson_complete_text', __( '<i class="fa fa-check-circle"></i> Lesson Complete', 'lifterlms' ) ); ?>
 			<?php do_action( 'llms_after_lesson_complete_text', $lesson ); ?>
 
 			<?php if ( 'yes' === get_option( 'lifterlms_retake_lessons', 'no' ) || apply_filters( 'lifterlms_retake_lesson_' . $lesson->get( 'parent_course' ), false ) ) : ?>
