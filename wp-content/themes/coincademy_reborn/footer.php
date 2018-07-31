@@ -7,35 +7,35 @@
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
 					<span>Express Courses</span>
 					<ul>
-						<a href="something"><li>Types of courses</li></a>
-						<a href="something"><li>Types of courses</li></a>
-						<a href="something"><li>Types of courses</li></a>
+						<a href="/express-courses/"><li>Bitcoin</li></a>
+						<a href="/express-courses/"><li>Ethereum</li></a>
+						<a href="/express-courses/"><li>Monero</li></a>
 					</ul>
 				</div>
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
 
 					<span>Standard Courses</span>
 					<ul>
-						<a href="something"><li>Bitcoin Courses</li></a>
-						<a href="something"><li>Ethereum Courses</li></a>
-						<a href="something"><li>Monero Courses</li></a>
-						<a href="something"><li>Mining Courses</li></a>
+						<a href="/course-category/bitcoin/"><li>Bitcoin Courses</li></a>
+						<a href="/course-category/ethereum/"><li>Ethereum Courses</li></a>
+						<a href="/course-category/monero/"><li>Monero Courses</li></a>
+						<a href="/course-category/mining/"><li>Mining Courses</li></a>
 					</ul>
 				</div>
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
 					<span>Investing</span>
 					<ul>
-						<a href="something"><li>Beginner Course</li></a>
-						<a href="something"><li>Investor Course</li></a>
-						<a href="something"><li>Advanced Course</li></a>
+						<a href="/course/investing-beginners-course/"><li>Beginner Course</li></a>
+						<a href="/course/investing-intermediate-course/"><li>Investor Course</li></a>
+						<a href="/course/investing-advanced-course/"><li>Advanced Course</li></a>
 					</ul>
 				</div>
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
 					<span>Developer</span>
 					<ul>
-						<a href="something"><li>Beginner Course</li></a>
-						<a href="something"><li>Investor Course</li></a>
-						<a href="something"><li>Advanced Course</li></a>
+						<a href="/course/developer-beginners-course/"><li>Beginner Course</li></a>
+						<a href="/course/developer-intermediate-course/"><li>Investor Course</li></a>
+						<a href="/course/developer-advanced-course/"><li>Advanced Course</li></a>
 					</ul>
 				</div>
 				<div class="vmid copyright">

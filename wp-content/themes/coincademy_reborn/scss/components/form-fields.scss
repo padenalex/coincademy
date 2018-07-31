@@ -1,0 +1,146 @@
+::-webkit-input-placeholder {
+	color: #888;
+}
+:-ms-input-placeholder  {
+	color: #888;
+}
+
+::-ms-input-placeholder {
+	color: #888;
+}
+
+label {
+	margin-left: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: .8rem;
+	color: #666;
+	cursor: pointer;
+}
+input {
+	width: 100%;
+	margin-top: -1.37rem;
+	background-color: transparent;
+	box-sizing: border-box;
+	border: 2px solid rgba($color-blue,.5);
+	border-radius: .2rem;
+	padding: 1.7rem 1rem .8rem;
+	float: left;
+	color: #333;
+	font-weight: 100;
+	font-size: 1.1rem;
+	letter-spacing: .01rem;
+}
+input:focus {
+	border-color: $color-blue;
+	outline-color: $color-blue;
+}
+input[type=submit] {
+	max-width: 10rem;
+	margin-top: .5rem;
+  border: none;
+}
+textarea {
+	@extend input;
+	min-height: 6rem;
+	margin-top: .2rem;
+	padding: .8rem 1rem;
+}
+
+input[type=checkbox] {
+}
+.input-container {
+	overflow: auto;
+	margin-bottom: 1rem;
+}
+.textarea-container {
+}
+
+/* checkbox */
+.mc-field-group.input-group {
+  padding-top: 1.5rem;
+}
+.checkbox-list {
+  margin-top: 0;
+}
+.checkbox-list li {
+	cursor: pointer;
+	padding-left: 0;
+	margin-left: 0;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: inline-block;
+}
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+    box-shadow: 0 0 0 1px rgba($color-blue, .5);
+    border-radius: 1rem;
+  }
+
+  // Box hover
+  &:hover + label:before {
+    // background: #f35429;
+    box-shadow: 0 0 0 1px rgba($color-blue, 1);
+  }
+  
+  // Box focus
+  &:focus + label:before {
+    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 0 1px rgba($color-blue, 1);
+  }
+
+  // Box checked
+  &:checked + label:before {
+    // background: #f35429;
+    box-shadow: 0 0 0 1px rgba($color-blue, 1);
+  }
+  
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      2px 0 0 $color-blue,
+      4px 0 0 $color-blue,
+      4px -2px 0 $color-blue,
+      4px -4px 0 $color-blue,
+      4px -6px 0 $color-blue,
+      4px -8px 0 $color-blue;
+    transform: rotate(45deg);
+  }
+}

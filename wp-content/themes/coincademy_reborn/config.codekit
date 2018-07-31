@@ -128,6 +128,31 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/img\/bitcoin-original.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8405,
+		"inputAbbreviatedPath": "\/img\/bitcoin-original.png",
+		"outputAbbreviatedPath": "\/img\/bitcoin-original.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bitcoin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8405,
+		"inputAbbreviatedPath": "\/img\/bitcoin.png",
+		"outputAbbreviatedPath": "\/img\/bitcoin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+>>>>>>> feature/v1.0.0
 	"\/img\/cert-feature.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -150,6 +175,31 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/img\/ethereum-original.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11431,
+		"inputAbbreviatedPath": "\/img\/ethereum-original.png",
+		"outputAbbreviatedPath": "\/img\/ethereum-original.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ethereum.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11431,
+		"inputAbbreviatedPath": "\/img\/ethereum.png",
+		"outputAbbreviatedPath": "\/img\/ethereum.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+>>>>>>> feature/v1.0.0
 	"\/img\/express-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -293,6 +343,31 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/img\/monero-original.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9180,
+		"inputAbbreviatedPath": "\/img\/monero-original.png",
+		"outputAbbreviatedPath": "\/img\/monero-original.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/monero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9180,
+		"inputAbbreviatedPath": "\/img\/monero.png",
+		"outputAbbreviatedPath": "\/img\/monero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+>>>>>>> feature/v1.0.0
 	"\/img\/standard-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -908,6 +983,25 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/scss\/components\/form-fields.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/form-fields.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/form-fields.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+>>>>>>> feature/v1.0.0
 	"\/scss\/components\/nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -956,6 +1050,18 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/scss\/css\/form-fields.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/css\/form-fields.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+>>>>>>> feature/v1.0.0
 	"\/scss\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1026,6 +1132,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/standard-courses-template.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/standard-courses-template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+>>>>>>> feature/v1.0.0
 	"\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1043,6 +1161,18 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+<<<<<<< HEAD
+=======
+		},
+	"\/templates\/template-express-courses-footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/template-express-courses-footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+>>>>>>> feature/v1.0.0
 		}
 	},
 "hooks": [

@@ -1,6 +1,7 @@
 @import "core/base";
 @import "core/original-css";
 
+@import "components/form-fields";
 @import "components/nav";
 
 .llms-course-nav a li {
@@ -20,9 +21,24 @@
 }
 
 
+// buttons
+.btn-large {
+	font-size: 1rem;
+	padding: .5rem 2rem;
+}
+
+#mc_embed_signup {
+	overflow: auto;
+	padding-bottom: 2rem;
+}
+
+
 // footer
 .social-icon img {
 	width: 2rem;
 	height: 2rem;
 	margin-left: 1rem;
+}
+.social-icon:hover img {
+	opacity: .8;
 }

@@ -297,7 +297,7 @@ button {
 
 /* homepage spec header*/ 
 
-header.homepage {
+.general-page {
     padding-top: 140px;
     padding-bottom: 80px;
 }
@@ -340,12 +340,12 @@ header.homepage {
 	opacity: 1 !important;
 }
 
-.category-tile.investor:hover {
+.category-tile-green:hover {
     background: #35cc63;
     background-image: linear-gradient(to bottom, #35cc63, #87e177);
 }
 
-.category-tile.developer:hover {
+.category-tile-red:hover {
     background: #fa478f;
     background-image: linear-gradient(to bottom, #fa478f, #fb8973);
 }
@@ -766,6 +766,7 @@ header .arrow-btn {
     font-weight: 700;
     font-size: 0.85em;
     margin-left: 1px;
+    text-transform: uppercase;
 }
 
 /* content section with assymetric top */
