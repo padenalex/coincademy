@@ -19,14 +19,14 @@
                     <label for="mce-EMAIL">Email Address </label>
                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
                 </div>
-                <div class="mc-field-group input-group">
+                <!-- <div class="mc-field-group input-group">
                     <strong>Choose courses</strong>
                     <ul class="checkbox-list">
                         <li><input class="styled-checkbox" type="checkbox" value="1" name="group[6427][1]" id="mce-group[6427]-6427-0"><label for="mce-group[6427]-6427-0">Bitcoin</label></li>
                         <li><input class="styled-checkbox" type="checkbox" value="2" name="group[6427][2]" id="mce-group[6427]-6427-1"><label for="mce-group[6427]-6427-1">Ethereum</label></li>
                         <li><input class="styled-checkbox" type="checkbox" value="4" name="group[6427][4]" id="mce-group[6427]-6427-2"><label for="mce-group[6427]-6427-2">Monero</label></li>
                     </ul>
-                </div>
+                </div> -->
                     <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display:none"></div>
                         <div class="response" id="mce-success-response" style="display:none"></div>
