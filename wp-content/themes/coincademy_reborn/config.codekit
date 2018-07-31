@@ -128,8 +128,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/img\/bitcoin-original.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -152,7 +150,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
->>>>>>> feature/v1.0.0
 	"\/img\/cert-feature.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -175,8 +172,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/img\/ethereum-original.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -199,7 +194,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
->>>>>>> feature/v1.0.0
 	"\/img\/express-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -343,8 +337,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/img\/monero-original.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -367,7 +359,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
->>>>>>> feature/v1.0.0
 	"\/img\/standard-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -983,8 +974,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/scss\/components\/form-fields.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -1001,7 +990,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
->>>>>>> feature/v1.0.0
 	"\/scss\/components\/nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1011,6 +999,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/components\/nav.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/components\/sidebar.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/sidebar.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/sidebar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1050,8 +1054,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/scss\/css\/form-fields.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1061,7 +1063,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
->>>>>>> feature/v1.0.0
 	"\/scss\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1132,8 +1133,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/standard-courses-template.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1143,7 +1142,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
->>>>>>> feature/v1.0.0
 	"\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1161,8 +1159,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-<<<<<<< HEAD
-=======
 		},
 	"\/templates\/template-express-courses-footer.php": {
 		"fileType": 8192,
@@ -1172,7 +1168,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
->>>>>>> feature/v1.0.0
 		}
 	},
 "hooks": [
@@ -1777,10 +1772,10 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 1,
+	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 3,
+	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,

@@ -3,21 +3,24 @@
 
 @import "components/form-fields";
 @import "components/nav";
+@import "components/sidebar";
 
 .llms-course-nav a li {
 	background: transparent;
 	color: $color-blue;
 	box-shadow: none;
 }
+
+
 // Single Course Signup Page
-.llms-course-outline {
-	font-size: 1rem;
-}
 .llms-widget-syllabus ul li {
 	margin-bottom: 1.5rem;
 }
 .section-title {
 	font-size: 1.15rem;
+}
+.llms-widget-syllabus ul li ul li {
+	margin: .3rem 0 0 0;
 }
 
 
