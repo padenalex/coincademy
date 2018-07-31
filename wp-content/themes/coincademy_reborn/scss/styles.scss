@@ -45,3 +45,15 @@
 .social-icon:hover img {
 	opacity: .8;
 }
+
+
+// Single Lesson
+.llms-lesson-button-wrapper {
+	margin-top: 2rem;
+	font-weight: 600;
+	color: $color-gray-light;
+}
+.llms-lesson-button-wrapper i {
+	color: $color-green;
+	margin-right: .3rem;
+}

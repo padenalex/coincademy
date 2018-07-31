@@ -1418,7 +1418,11 @@ textarea {
 .nav-sidebar .section-title {
   font-weight: 400;
   margin-left: 5px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  color: #898890; }
+
+.nav-sidebar .llms-section--opened .section-title {
+  color: #5c5c61; }
 
 .nav-sidebar .llms-section--opened .section-title {
   font-weight: 800; }
@@ -1437,7 +1441,8 @@ textarea {
 
 .nav-sidebar a.current-lesson {
   font-weight: 700 !important;
-  opacity: 1 !important; }
+  opacity: 1 !important;
+  color: #5c5c61; }
 
 .nav-sidebar {
   padding: 30px;
@@ -1469,22 +1474,32 @@ textarea {
   letter-spacing: 1px;
   font-weight: 600;
   font-size: .9rem;
-  color: #898890; }
+  color: #5c5c61; }
 
 .nav-sidebar .llms-widget-syllabus .llms-section {
   margin-bottom: .8rem; }
 
-.nav-sidebar .section-title {
-  font-size: 1rem; }
+.llms-widget-syllabus .llms-lesson-complete {
+  color: #fff; }
 
 .llms-widget-syllabus .llms-lesson-complete.done {
-  color: #35cc63; }
+  color: #898890; }
 
-.llms-widget-syllabus .lesson-title a:hover, .section-header:hover {
+.llms-widget-syllabus .lesson-title a:hover, .nav-sidebar .section-header:hover .section-title {
   color: #029cf2; }
 
 .llms-course-nav a li {
   font-weight: 800; }
+
+.llms-lesson-complete:before {
+  font-family: 'FontAwesome';
+  content: "\f058";
+  margin: 0 0 0 -1rem;
+  color: #fff;
+  font-size: 1.1rem; }
+
+.llms-lesson-complete.done:before {
+  color: #898890; }
 
 .llms-course-nav a li {
   background: transparent;
@@ -1515,3 +1530,12 @@ textarea {
 
 .social-icon:hover img {
   opacity: .8; }
+
+.llms-lesson-button-wrapper {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #898890; }
+
+.llms-lesson-button-wrapper i {
+  color: #35cc63;
+  margin-right: .3rem; }
