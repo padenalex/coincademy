@@ -34,7 +34,7 @@
         	<div class="max-width-menu vmid">
             	<div class="pure-u-1 pure-u-lg-1-5 pure-u-md-1-3">
                 	<a class="logo" href="<?php echo home_url(); ?>"><span class="logo-img"></span></a>
-                	<button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;">---</button>
+                	<button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;">MENU</button>
                 </div>
                 <div class="pure-u-1 pure-u-lg-3-5 pure-u-md-3-5">
                 	<?php cc_header_menu(); ?>

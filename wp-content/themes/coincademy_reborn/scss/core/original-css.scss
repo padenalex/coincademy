@@ -179,119 +179,7 @@ button {
     display: block;
 }
 
-/* /NAV CSS */
 
-.top-navigation {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    padding: 30px 0px;
-    z-index: 10;
-}
-
-.max-width-menu {
-    display: flex;
-    max-width: 1100px;
-    width: 100%;
-    padding: 0px 20px;
-    margin: auto auto;
-    position: relative;
-}
-
-.menu-toggle {
-    position: absolute;
-    right: 20px;
-    display: none;
-}
-
-.menu-bg {
-    background: #FFFFFF;
-    box-shadow: 0px 7px 25px rgba(84,93,101,0.10);
-    color: #514e4e !important;
-}
-
-.menu-bg .logo-img {
-	background-image: url('../img/logo.png') !important;
-}
-
-.logo-img {
-	background: url('../img/logo.png');
-	height: 35px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 40px;
-	display: inline-block;
-}
-
-.white-nav {
-	color: #FFFFFF;
-}
-
-.white-nav .login-btn {
-	color: #FFFFFF;
-}
-
-.white-nav .green-btn {
-	background: #FFFFFF;
-	color: #029cf2;
-	box-shadow: 0px 3px 20px rgba(80, 80, 80,.35);
-}
-
-.white-nav.investor .green-btn, .course-header.investing .enroll-btn {
-	color: #35cc63;
-}
-
-.white-nav.developer .green-btn, .course-header.developer .enroll-btn {
-	color: #fa4d8c;
-}
-
-.white-nav .green-btn:hover {
-	box-shadow: 0px 0px 15px rgba(80, 80, 80,.35);
-}
-
-.white-nav .green-btn:active {
-	background: #efefef;
-}
-
-.white-nav .logo-img {
-	background-image: url('../img/logo-white.png');
-}
-
-
-
-
-.login-holder {
-    text-align: right;
-    font-size: 0.9em;
-}
-
-.green-btn, .menu-bg .green-btn {
-    padding: 8px 25px;
-    font-weight: 600;
-    border-radius: 4px;
-    font-size: 0.75em;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    box-shadow: 0px 3px 20px rgba(53,204,99,.35);
-    transition: all 0.2s;
-    background: #35cc63;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.menu-bg .green-btn {
-	color: #FFFFFF !important;
-}
-
-.green-btn:hover, .menu-bg .green-btn:hover {
-    box-shadow: 0px 0px 15px rgba(53,204,99,.6);
-    background: #35cc63;
-}
-
-.green-btn:active, .menu-bg .green-btn:active {
-    box-shadow: 0px 2px 10px rgba(53,204,99,.35);
-    background: #31b559;
-}
 
 
 
@@ -1342,15 +1230,7 @@ footer .copyright div:last-child {
     
     .layout-content-fs .lesson-content-text {
     	padding-right: 20px;
-    }
-    
-    /* nav hover effect - never on phone */
-    
-	.menu-list li:hover > ul {
-        display: block;
-    }
-    
-    
+    }    
 }
 
 @media only screen and (max-width: 767px) {
@@ -1473,52 +1353,6 @@ footer .copyright div:last-child {
         margin-top: 60px;
     }
     
-    /* phone specific nav css */
-    
-    .menu-list li {
-        margin: auto auto;
-    }
-    
-    .login-btn {
-        margin: auto auto;
-    }
-    
-    .green-btn {
-        max-width: 130px;
-        margin: auto auto;
-    }
-    
-    .max-width-menu {
-        flex-direction: column;
-    }
-    
-    .max-width-menu div {
-        display: none;
-    }
-    
-    .max-width-menu > div:first-child {
-        display: block;
-    }
-    
-    .login-holder {
-        text-align: center;
-    }
-    
-    .login-holder a {
-        display: block;
-    }
-    
-    .menu-list li {
-        display: block;
-    }
-    
-    .menu-list li ul {
-        position: relative;
-    }
-    
-    .menu-toggle {
-        display: inline-block;
-    }
 }
 
 @media only screen and (max-width: 355px) {

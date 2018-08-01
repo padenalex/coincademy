@@ -25,15 +25,16 @@ function toggleSubmenu(elem) {
     elem.nextElementSibling.classList.toggle('displayed');
 }
 
-var newToggle = document.createElement('button');
-newToggle.classList.add('menu-toggle');
-newToggle.innerHTML = '---';
-try {
-	newToggle.onclick = function(){toggleSubmenu(this)};
-}
-catch(err) {
-    console.log(err);
-}
+// removed because added a second mobile menu button
+// var newToggle = document.createElement('button');
+// newToggle.classList.add('menu-toggle');
+// newToggle.innerHTML = '---';
+// try {
+// 	newToggle.onclick = function(){toggleSubmenu(this)};
+// }
+// catch(err) {
+//     console.log(err);
+// }
 
 
 var doc = document.getElementById("top-nav-menu");

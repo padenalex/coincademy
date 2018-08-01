@@ -1,13 +1,129 @@
+.top-navigation {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 30px 0px;
+    z-index: 10;
+}
+
+.max-width-menu {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: auto auto;
+    position: relative;
+}
+
+.menu-toggle {
+    position: absolute;
+    right: 20px;
+    display: none;
+    color: $color-blue;
+    font-weight: 800;
+    padding: .6rem 2rem;
+}
+
+.menu-bg {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 25px rgba(84,93,101,0.10);
+    color: #514e4e !important;
+}
+
+.menu-bg .logo-img {
+    background-image: url('../img/logo.png') !important;
+}
+
+.logo-img {
+    background: url('../img/logo.png');
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    display: inline-block;
+}
+
+.white-nav {
+    color: #FFFFFF;
+}
+
+.white-nav .login-btn {
+    color: #FFFFFF;
+}
+
+.white-nav .green-btn {
+    background: #FFFFFF;
+    color: #029cf2;
+    box-shadow: 0px 3px 20px rgba(80, 80, 80,.35);
+}
+
+.white-nav.investor .green-btn, .course-header.investing .enroll-btn {
+    color: #35cc63;
+}
+
+.white-nav.developer .green-btn, .course-header.developer .enroll-btn {
+    color: #fa4d8c;
+}
+
+.white-nav .green-btn:hover {
+    box-shadow: 0px 0px 15px rgba(80, 80, 80,.35);
+}
+
+.white-nav .green-btn:active {
+    background: #efefef;
+}
+
+.white-nav .logo-img {
+    background-image: url('../img/logo-white.png');
+}
+
+
+
+
+.login-holder {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.green-btn, .menu-bg .green-btn {
+    padding: 8px 25px;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 20px rgba(53,204,99,.35);
+    transition: all 0.2s;
+    background: #35cc63;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-bg .green-btn {
+    color: #FFFFFF !important;
+}
+
+.green-btn:hover, .menu-bg .green-btn:hover {
+    box-shadow: 0px 0px 15px rgba(53,204,99,.6);
+    background: #35cc63;
+}
+
+.green-btn:active, .menu-bg .green-btn:active {
+    box-shadow: 0px 2px 10px rgba(53,204,99,.35);
+    background: #31b559;
+}
+
+
 .menu-list {
     list-style: none;
    /* text-align: center; */
     margin: auto auto;
     padding: 0px;
 }
-.white-nav .menu-list li {
+.white-nav .menu-list > li {
     color: #fff;
 }
-.white-nav .menu-list li:hover, .white-nav .menu-list li:active {
+.white-nav .menu-list > li > a:hover, .white-nav .menu-list > li a:active {
     border-color: #fff;
 }
 
@@ -15,14 +131,16 @@
 .menu-list li, .menu-bg .menu-list li {
     display: inline-block;
     font-size: 0.95em;
-    margin-left: 15px;
+    margin-left: 2rem;
     text-transform: uppercase;
     color: #029cf2;
     font-weight: 600;
-    border-bottom: 1px solid transparent;
-    padding: 1px 2px 3px;
 }
-.menu-list li:hover, .menu-list li:active, .menu-list .current-menu-item, .menu-bg .menu-list li:hover, .menu-bg .menu-list li:active, .menu-bg .menu-list .current-menu-item {
+.menu-list li a, .menu-bg .menu-list li a {
+    border-bottom: 1px solid transparent;
+    padding: .5rem .2rem .2rem;
+    }
+.menu-list li a:hover, .menu-list li a:active, .menu-list .current-menu-item, .menu-bg .menu-list li a:hover, .menu-bg .menu-list li a:active, .menu-bg .menu-list .current-menu-item {
     border-color: #029cf2;
 }
 
@@ -38,11 +156,6 @@
     display: none;
 }
 
-.menu-list li ul li {
-    margin-left: 0px;
-    display: block;
-    margin-bottom: 10px;
-}
 
 
 .login-btn, .menu-bg .login-btn {
@@ -65,4 +178,96 @@
 }
 .menu-bg.white-nav .green-btn:hover {
 background: $color-green;
+}
+
+
+// Sub Menu
+.sub-menu {
+    background: #fff;
+    box-shadow: 0px 7px 25px rgba(85,95,100,0.1);
+    min-width: 12rem;
+}
+.menu-list li ul li, .menu-bg .menu-list li ul li {
+    margin-left: 0px;
+    display: block;
+}
+.menu-list li ul li a {
+    margin-bottom: .4rem;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* nav hover effect - never on phone */
+    
+    .menu-list li > ul {
+        display: block;
+    }
+    .sub-menu {
+        box-shadow: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    /* phone specific nav css */
+    
+    .menu-list {
+        margin-top: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .login-btn {
+        margin: auto auto;
+    }
+    
+    .green-btn {
+        max-width: 130px;
+        margin: auto auto;
+    }
+    
+    .max-width-menu {
+        flex-direction: column;
+    }
+    
+    .max-width-menu div {
+        display: none;
+    }
+    
+    .max-width-menu > div:first-child {
+        display: block;
+    }
+    
+    .login-holder {
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 1.1rem;
+    }
+    
+    .login-holder button {
+        display: block;
+        margin: 0;
+        padding-left: 0;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .menu-list li, .menu-bg .menu-list li {
+        display: block;
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .menu-list li a, .menu-bg .menu-list li a {
+        width: 100%;
+        padding: .6rem 2rem;
+        display: block;
+    }
+    
+    .menu-list li ul {
+        position: relative;
+    }
+    
+    .menu-toggle {
+        display: inline-block;
+    }
 }
