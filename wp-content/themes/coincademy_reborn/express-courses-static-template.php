@@ -12,26 +12,23 @@
                 </p>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
-                <form action="https://claritysquared.us14.list-manage.com/subscribe/post?u=ff6674079e649d6b6a3db4ad9&amp;id=2e073ea0e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="https://coincademy.us17.list-manage.com/subscribe/post?u=47b89435a286291726ebaf0ea&amp;id=0b0e7385e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
                     <h2>Get started today</h2>
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">Email Address </label>
                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
                 </div>
-                <!-- <div class="mc-field-group input-group">
-                    <strong>Choose courses</strong>
-                    <ul class="checkbox-list">
-                        <li><input class="styled-checkbox" type="checkbox" value="1" name="group[6427][1]" id="mce-group[6427]-6427-0"><label for="mce-group[6427]-6427-0">Bitcoin</label></li>
-                        <li><input class="styled-checkbox" type="checkbox" value="2" name="group[6427][2]" id="mce-group[6427]-6427-1"><label for="mce-group[6427]-6427-1">Ethereum</label></li>
-                        <li><input class="styled-checkbox" type="checkbox" value="4" name="group[6427][4]" id="mce-group[6427]-6427-2"><label for="mce-group[6427]-6427-2">Monero</label></li>
+                <div style="display: none;" class="mc-field-group input-group">
+                    <strong>Group </strong>
+                    <ul><li><input type="checkbox" value="1" name="group[8119][1]" id="mce-group[8119]-8119-0" checked><label for="mce-group[8119]-8119-0">Express Courses</label></li>
                     </ul>
-                </div> -->
+                </div>
                     <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display:none"></div>
                         <div class="response" id="mce-success-response" style="display:none"></div>
                     </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ff6674079e649d6b6a3db4ad9_2e073ea0e9" tabindex="-1" value=""></div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_47b89435a286291726ebaf0ea_0b0e7385e0" tabindex="-1" value=""></div>
                     <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="green-btn green-btn-padding btn-large"></div>
                     </div>
                 </form>
@@ -61,7 +58,8 @@
             </div>
         </div>
     </div>
-        
+
+    <?php get_template_part( 'templates/template', 'standard-courses-footer' ); ?>
         
 		<!-- single page js / instead of registering functions -->
 		<script src="<?php echo get_template_directory_uri(); ?>/js/parallax.min.js"></script>
