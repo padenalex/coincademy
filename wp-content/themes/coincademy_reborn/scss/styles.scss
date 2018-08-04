@@ -81,6 +81,57 @@
 @media only screen and (max-width: $break-point-mid) {
 	.category-image-icon {
 		max-width: 5rem;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
+}
+
+
+blockquote {
+  position: relative;
+  font-style: italic;
+  max-width: 40rem;
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin: 3rem auto;
+}
+blockquote p {
+	line-height: 1.7;
+}
+blockquote:before {
+      content: '\201C';
+      position: absolute;
+      top: -7rem;
+      left: -.4em;
+      color: $color-gray-lightest;
+      font-size: 8em;
+      z-index: -1;
+}
+blockquote:after {
+	content: '\201D';
+      position: absolute;
+      margin-top: -9rem;
+	right: 0;
+      color: $color-gray-lightest;
+      font-size: 8em;
+      z-index: -1;
+}
+blockquote .cite {
+	font-size: .9rem;
+	float: right;
+	padding-top: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	color: $color-gray-light;
+}
+
+.contact-info a {
+	font-size: 1.2rem;
+	color: $color-blue;
+}
+.contact-info a:hover, .contact-info a:active {
+	text-decoration: underline;
 }

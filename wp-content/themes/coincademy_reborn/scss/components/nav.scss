@@ -27,6 +27,15 @@
 .white-nav .menu-toggle {
     color: #fff;
 }
+.white-nav .menu-toggle svg {
+    fill: #fff;
+}
+.white-nav.menu-bg .menu-toggle {
+    color: $color-blue;
+}
+.white-nav.menu-bg .menu-toggle svg {
+    fill: $color-blue;
+}
 
 .menu-bg {
     background: #FFFFFF;
@@ -166,7 +175,7 @@
 
 .login-btn, .menu-bg .login-btn {
     color: #35cc63;
-    margin-right: 15px;
+    margin-left: 1rem;
     padding-bottom: 3px;
     border-bottom: 1px solid transparent;
 }
@@ -222,14 +231,20 @@ background: $color-green;
     .menu-list {
         margin-top: 2rem;
         font-size: 1.1rem;
+        margin-left: -20px; 
+        width: 100vw;
+        border-top: 1px solid $color-gray-lightest;
     }
 
     .login-btn {
-        margin: auto auto;
+        margin: 1.5rem auto 0;
+        float: left;
+        font-size: 1rem;
     }
     
-    .green-btn {
-        max-width: 130px;
+    .top-navigation .green-btn {
+        float: left;
+        max-width: 150px;
         margin: auto auto;
     }
     
@@ -243,6 +258,20 @@ background: $color-green;
     
     .max-width-menu > div:first-child {
         display: block;
+    }
+    .menu-list li a, .menu-bg .menu-list li a {
+        border: none;
+    }
+    .menu-list li a:hover, .menu-list li a:active, .menu-list .current-menu-item, .menu-bg .menu-list li a:hover, .menu-bg .menu-list li a:active, .menu-bg .menu-list .current-menu-item {
+        background-color: $color-gray-lightest;
+        border-color: #fff;
+    }
+    .menu-list li ul {
+        padding: 0;
+    }
+    .menu-list li ul li a, .menu-bg .menu-list li ul li a {
+        padding-left: 3.2rem;
+        margin-bottom: 0;
     }
     
     .login-holder {
@@ -268,7 +297,7 @@ background: $color-green;
     }
     .menu-list li a, .menu-bg .menu-list li a {
         width: 100%;
-        padding: .6rem 2rem;
+        padding: .8rem 2rem;
         display: block;
     }
     

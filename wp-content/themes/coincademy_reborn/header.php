@@ -50,8 +50,9 @@
                     
                 <?php } else {  ?>
                     
-                    <a class="login-btn" href="<?php echo wp_logout_url( esc_url( get_permalink() ) ); ?>" title="Log out of this accounts">Logout</a>    
+                    
                     <a class="green-btn" href="<?php echo home_url();?>/my-courses/">DASHBOARD</a>      
+                    <a class="login-btn" href="<?php echo wp_logout_url( esc_url( get_permalink() ) ); ?>" title="Log out of this accounts">Logout</a>    
                     <?php 
                 }
                 ?>
