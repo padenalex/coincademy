@@ -37,26 +37,28 @@
 }
 
 
-// footer
-.social-icon img {
-	width: 2rem;
-	height: 2rem;
-	margin-left: 1rem;
-}
-.social-icon:hover img {
-	opacity: .8;
-}
+
 
 
 // Single Lesson
-.llms-lesson-button-wrapper {
+.llms-lesson-button-wrapper, .llms-course-complete-text {
 	margin-top: 2rem;
 	font-weight: 600;
 	color: $color-gray-light;
 }
-.llms-lesson-button-wrapper i {
+.llms-lesson-button-wrapper i, .llms-course-complete-text i {
 	color: $color-green;
 	margin-right: .3rem;
+}
+.llms-course-complete-text {
+	font-size: 1.2rem;
+}
+.course-header .llms-course-complete-text, .course-header .llms-course-complete-text i {
+	color: #fff;
+}
+
+.llms-progress .progress-bar-complete {
+	background-color: $color-green;
 }
 
 
@@ -74,4 +76,11 @@
 	width: 75%;
 	max-width: 11rem;
 	display: block;
+}
+
+@media only screen and (max-width: $break-point-mid) {
+	.category-image-icon {
+		max-width: 5rem;
+		margin-bottom: 2rem;
+	}
 }

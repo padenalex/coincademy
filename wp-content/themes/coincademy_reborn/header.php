@@ -34,7 +34,8 @@
         	<div class="max-width-menu vmid">
             	<div class="pure-u-1 pure-u-lg-1-5 pure-u-md-1-3">
                 	<a class="logo" href="<?php echo home_url(); ?>"><span class="logo-img"></span></a>
-                	<button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;">MENU</button>
+                    <button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;">MENU<svg fill="#029cf2" height="15px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></button>
+                	<button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;"></button>
                 </div>
                 <div class="pure-u-1 pure-u-lg-3-5 pure-u-md-3-5">
                 	<?php cc_header_menu(); ?>
@@ -50,7 +51,7 @@
                 <?php } else {  ?>
                     
                     <a class="login-btn" href="<?php echo wp_logout_url( esc_url( get_permalink() ) ); ?>" title="Log out of this accounts">Logout</a>    
-                    <a class="green-btn" href="<?php echo home_url();?>/my-dashboard">DASHBOARD</a>      
+                    <a class="green-btn" href="<?php echo home_url();?>/my-courses/">DASHBOARD</a>      
                     <?php 
                 }
                 ?>

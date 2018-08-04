@@ -2,14 +2,12 @@
 			<footer class="max-width pure-g">
 
 				<div class="pure-u-1 pure-u-md-1-5 pure-u-lg-1-5">
-					logo bullshit
+					<span class="logo-img"></span>
 				</div>
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
 					<span>Express Courses</span>
 					<ul>
-						<li><a href="/express-courses/">Bitcoin</a></li>
-						<li><a href="/express-courses/">Ethereum</a></li>
-						<li><a href="/express-courses/">Monero</a></li>
+						<li><a href="/express-courses/">Cryptocurrency</a></li>
 					</ul>
 				</div>
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
