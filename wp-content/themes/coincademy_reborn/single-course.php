@@ -29,7 +29,7 @@
     <section class="section no-bottom-margin">
         <div class="pure-g vmid max-width">
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo strtoupper($object_terms->name); ?>.svg" class="category-image-icon" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo strtolower($object_terms->name); ?>.svg" class="category-image-icon" />
             </div>
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">
                 <div class="title">
