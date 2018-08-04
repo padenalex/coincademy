@@ -6,6 +6,9 @@ body, .pure-g [class*=pure-u] {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
 }
+p {
+    line-height: 1.6;
+}
 
 .pure-g {
     position: relative;
@@ -21,9 +24,9 @@ body {
 }
 
 .section {
-	padding-top: 80px !important;
+	padding-top: 80px;
 	padding-bottom: 80px !important;
-	margin-bottom: 80px !important; 
+	margin-bottom: 80px; 
 }
 
 .section-grey {
@@ -50,6 +53,9 @@ body {
 .no-side-padding {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.no-bottom-margin {
+    margin-bottom: 0;
 }
 
 .flexreverse {
@@ -1026,61 +1032,7 @@ header .arrow-btn {
     color: #fa478f;
 }
 
-/* footer */
 
-footer {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-footer span {
-    color: #848484;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    display: block;
-    font-size: .9em;
-}
-
-footer ul li {
-    margin: 10px 0px;
-    font-size: .85em;
-    color: #9e9e9e;
-}
-
-footer .copyright {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    justify-content: space-between;
-    position: relative;
-}
-
-footer .copyright::after {
-    display: block;
-    position: absolute;
-    content: '';
-    height: 0px;
-    width: 100%;
-    border-bottom: 1px solid #f2f2f2;
-    top: -25px;
-    left: 0px;
-}
-
-footer .copyright div:first-child {
-    text-align: left;
-}
-
-footer .copyright div:last-child {
-    text-align: right;
-}
 
 @media only screen and (min-width: 768px) {
 	
@@ -1234,21 +1186,6 @@ footer .copyright div:last-child {
 }
 
 @media only screen and (max-width: 767px) {
-
-    /* footer */
-
-    footer div:first-child {
-        text-align: center;
-        padding-bottom: 40px;
-    }
-
-    footer div:nth-child(4), footer div:nth-child(5) {
-        margin-top: 20px;
-    }
-
-    footer .copyright div:first-child, footer .copyright div:last-child {
-        text-align: center;
-    }
 
 	.section .section-desc:first-child {
 		margin-bottom: 40px;

@@ -26,27 +26,41 @@
         </div>
     </header>
 
-    <div class="max-width">
-        <section class="section">
-            <div class="pure-g vmid">
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <div class="title">
-                        <span>COURSE OVERVIEW</span>
-                        <h2><?php the_title(); ?></h2>
-                    </div>
-                    <?php echo do_shortcode('[lifterlms_course_outline course_id=\"the_ID();\"]'); ?>
-
+    <section class="section no-bottom-margin">
+        <div class="pure-g vmid max-width">
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo strtoupper($object_terms->name); ?>.svg" class="category-image-icon" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">
+                <div class="title">
+                    <span><?php the_title(); ?></span>
+                    <h2>Course Overview</h2>
+                </div>
+                <div class="short">
                     <?php the_content(); // Dynamic Content ?>
                 </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">
-                </div>
-                <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                    <?php do_action('coincademy_enroll_action'); ?>
-                </div>
             </div>
-        </section>
-    </div>
+
+        </div>
+    </section>
+
+    <section class="section section-grey">
+        <div class="pure-g vmid max-width">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                <div class="title">
+                    <span><?php the_title(); ?></span>
+                    <h2>Syllabus</h2>
+                </div>
+                <?php echo do_shortcode('[lifterlms_course_outline course_id=\"the_ID();\"]'); ?>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">
+            </div>
+            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
+                <?php do_action('coincademy_enroll_action'); ?>
+            </div>
+        </div>
+    </section>
 
 	<?php endwhile; ?>
 
