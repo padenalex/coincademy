@@ -2,7 +2,7 @@
 			<footer class="max-width pure-g">
 
 				<div class="pure-u-1 pure-u-md-1-5 pure-u-lg-1-5">
-					<span class="logo-img"></span>
+					<span class="logo-img logo-icon"></span>
 				</div>
 				<div class="pure-u-1-2 pure-u-md-1-5 pure-u-lg-1-5">
 					<span>Express Courses</span>
@@ -45,11 +45,6 @@
 					</div>
 				</div>
 
-				<div class="pure-u-1 pure-u-lg-3-5 pure-u-md-3-5">
-                	<?php cc_extra_menu(); ?>
-                </div>
-				
-				
 			</footer>
 			<!-- /footer -->
 

@@ -8,7 +8,7 @@
             <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
             </p>
-            <a href="/express-courses/" class="green-btn green-btn-padding" style="margin-top: 20px;padding-left: 40px; padding-right: 40px;">SIGN UP FOR FREE TODAY</a>
+            <a href="/standard-courses/" class="green-btn green-btn-padding" style="margin-top: 20px;padding-left: 40px; padding-right: 40px;">SIGN UP FOR FREE TODAY</a>
         </div> 
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 section-desc">
             <ul class="features-list">

@@ -45,13 +45,13 @@
                 if (!is_user_logged_in()) {  
                 ?>
                 
-                	<button id="login-button" class="login-btn">Login</button>
-                    <button id="signup-button" class="green-btn">SIGN UP</button>
+                    <a id="signup-button" class="green-btn" href="">SIGN UP</a>
+                    <a id="login-button" class="login-btn" href="">Login</a>
                     
                 <?php } else {  ?>
                     
                     
-                    <a class="green-btn" href="<?php echo home_url();?>/my-courses/">DASHBOARD</a>      
+                    <a class="green-btn" href="<?php echo home_url();?>/dashboard/">DASHBOARD</a>      
                     <a class="login-btn" href="<?php echo wp_logout_url( esc_url( get_permalink() ) ); ?>" title="Log out of this accounts">Logout</a>    
                     <?php 
                 }

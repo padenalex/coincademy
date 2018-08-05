@@ -5,7 +5,7 @@
             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                 <div class="title">
                     <span>Delivered to your inbox</span>
-                    <h2>Express Courses</h2>
+                    <h2>Express Courses <img src="<?php echo get_template_directory_uri(); ?>/img/express_general.png"></h2>
                 </div>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.

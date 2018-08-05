@@ -55,6 +55,12 @@
     width: 100%;
     display: inline-block;
 }
+.logo-icon {
+    background: url('../img/logo-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2.5rem;
+}
 
 .white-nav {
     color: #FFFFFF;
@@ -109,6 +115,7 @@
     transition: all 0.2s;
     background: #35cc63;
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 .top-navigation .green-btn {
     padding: 8px 25px;
