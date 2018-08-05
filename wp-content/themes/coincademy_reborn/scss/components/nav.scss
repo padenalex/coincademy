@@ -49,10 +49,10 @@
 
 .logo-img {
     background: url('../img/logo.png');
-    height: 35px;
+    height: 1.5rem;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 40px;
+    width: 100%;
     display: inline-block;
 }
 
@@ -131,7 +131,7 @@
 
 .menu-list {
     list-style: none;
-   /* text-align: center; */
+    text-align: center;
     margin: auto auto;
     padding: 0px;
 }
@@ -201,6 +201,7 @@ background: $color-green;
     background: #fff;
     box-shadow: 0px 7px 25px rgba(85,95,100,0.1);
     min-width: 12rem;
+    text-align: left;
 }
 .menu-list li ul li, .menu-bg .menu-list li ul li {
     margin-left: 0px;
