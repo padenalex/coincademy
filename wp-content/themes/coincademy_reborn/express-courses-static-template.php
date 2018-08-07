@@ -59,6 +59,10 @@
         </div>
     </div>
 
+    <div class="max-width general-page">
+        <?php echo do_shortcode('[lifterlms_course_outline course_id=\"383\"]'); ?>
+    </div>
+
     <?php get_template_part( 'templates/template', 'standard-courses-footer' ); ?>
         
 		<!-- single page js / instead of registering functions -->
