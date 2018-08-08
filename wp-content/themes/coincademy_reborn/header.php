@@ -45,8 +45,8 @@
                 if (!is_user_logged_in()) {  
                 ?>
                 
-                    <a id="signup-button" class="green-btn" href="">SIGN UP</a>
-                    <a id="login-button" class="login-btn" href="">Login</a>
+                    <a id="signup-button" class="green-btn" href="<?php echo home_url();?>/dashboard/">SIGN UP</a>
+                    <a id="login-button" class="login-btn" href="<?php echo home_url();?>/dashboard/">Login</a>
                     
                 <?php } else {  ?>
                     

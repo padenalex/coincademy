@@ -11,10 +11,14 @@
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
                 </p>
-                <div class="contact-info">
-                    <a href="mailto:contact@coincademy.com">contact@coincademy.com</a>
-                </div>
             </div> 
+            <div class="pure-u-1 vmid ex-st">
+                    <div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2 type-tile">
+                        <a href="mailto:contact@coincademy.com"><div class="type-tile-bg type-tile-express contact-info">
+                                contact@coincademy.com
+                        </div></a>
+                    </div>
+                </div>
         </div>
     </section>
 </div>
