@@ -4,63 +4,50 @@
         <div class="pure-g vmid">
             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                 <div class="title">
-                    <span>Delivered to your inbox</span>
+                    <span>Get Started With</span>
                     <h2>Express Courses <img src="<?php echo get_template_directory_uri(); ?>/img/express_general.png"></h2>
                 </div>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
                 </p>
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                <form action="https://coincademy.us17.list-manage.com/subscribe/post?u=47b89435a286291726ebaf0ea&amp;id=0b0e7385e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                    <h2>Get started today</h2>
-                <div class="mc-field-group">
-                    <label for="mce-EMAIL">Email Address </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
-                </div>
-                <div style="display: none;" class="mc-field-group input-group">
-                    <strong>Group </strong>
-                    <ul><li><input type="checkbox" value="1" name="group[8119][1]" id="mce-group[8119]-8119-0" checked><label for="mce-group[8119]-8119-0">Express Courses</label></li>
-                    </ul>
-                </div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_47b89435a286291726ebaf0ea_0b0e7385e0" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="green-btn green-btn-padding btn-large"></div>
-                    </div>
-                </form>
-                </div>
 
-                <!--End mc_embed_signup-->
+                <?php echo do_shortcode('[lifterlms_course_outline course_id="404"]'); ?>
+                
             </div>
-             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid" data-relative-input="true" data-hover-only="true"  data-pointer-events="true" id="scene">
-              <a style="margin-left: 60%; opacity: .7;" data-depth="0.2" href="/course-category/bitcoin/" >
-                  <div class="category-tile vmid">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/bitcoin.png" class="category-tile-img" />
-                      <span class="category-tile-title">BITCOIN</span>
-                  </div>
-                </a>
-                <a style="margin-left: 5%; opacity: .8;" data-depth="0.2" href="/course-category/ethereum/">
-                  <div class="category-tile category-tile-red vmid">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/ethereum.png" class="category-tile-img" />
-                      <span class="category-tile-title">ETHEREUM</span>
-                  </div>
-                </a>
-                <a style="margin-left: 30%; margin-top: 20%;" data-depth="1" href="/course-category/monero/">
-                  <div class="category-tile category-tile-green vmid">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/monero.png" class="category-tile-img" />
-                      <span class="category-tile-title">MONERO</span>
-                  </div>
-                </a>
+             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid">
+                <div class="sidebar">
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                    <form action="https://coincademy.us17.list-manage.com/subscribe/post?u=47b89435a286291726ebaf0ea&amp;id=0b0e7385e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                        <h2>Delivered to your email</h2>
+                        <p>Sign up to receive an express course delivered to your email each week!</p>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
+                    </div>
+                    <div style="display: none;" class="mc-field-group input-group">
+                        <strong>Group </strong>
+                        <ul><li><input type="checkbox" value="1" name="group[8119][1]" id="mce-group[8119]-8119-0" checked><label for="mce-group[8119]-8119-0">Express Courses</label></li>
+                        </ul>
+                    </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_47b89435a286291726ebaf0ea_0b0e7385e0" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="green-btn green-btn-padding btn-large"></div>
+                        </div>
+                    </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+                </div>
             </div>
         </div>
-    </div>
+        
 
-    <div class="max-width general-page">
-        <?php echo do_shortcode('[lifterlms_course_outline course_id=\"383\"]'); ?>
+
     </div>
 
     <?php get_template_part( 'templates/template', 'standard-courses-footer' ); ?>

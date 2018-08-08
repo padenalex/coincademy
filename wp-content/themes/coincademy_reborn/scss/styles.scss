@@ -194,3 +194,50 @@ blockquote .cite {
 	color: $color-blue;
 	text-decoration: underline;
 }
+
+
+// express courses
+.express-courses .llms-lesson {
+	@extend .type-tile;
+	@extend .type-tile-express;
+	@extend .course-tile;
+	@extend .bitcoin;
+	width: 100%;
+	max-width: 333px;
+	
+}
+.express-courses .llms-lesson .llms-lesson-complete {
+	display: none;
+}
+.express-courses .section-title {
+	display: none;
+}
+.express-courses .llms-widget-syllabus .lesson-title {
+	margin-left: 0;
+}
+.express-courses .llms-lesson span {
+	margin-right: 0;
+}
+.express-courses .llms-widget-syllabus .lesson-title a:before {
+	@extend .category-title;
+	content: 'Express Course';
+	color: $color-blue;
+	display: block;
+}
+.express-courses .llms-widget-syllabus .lesson-title a {
+	@extend .course-title;
+	display: block;
+	padding: 0rem 2rem 2rem;
+	margin-bottom: 0;
+}
+.express-courses .llms-widget-syllabus .lesson-title a:hover, .express-courses .llms-widget-syllabus .lesson-title a:active {
+	color: #404852;
+}
+
+@media only screen and (min-width: 768px) {
+	.sidebar {
+	padding-left: 4rem;
+	border-left: 1px solid $color-gray-lightest;
+	margin-left: 3rem;
+	}
+}
