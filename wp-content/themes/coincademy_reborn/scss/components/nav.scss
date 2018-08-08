@@ -19,6 +19,7 @@
 .menu-toggle {
     position: absolute;
     right: 20px;
+    top: 1.9rem;
     display: none;
     color: $color-blue;
     font-weight: 800;
@@ -54,6 +55,7 @@
     background-repeat: no-repeat;
     width: 100%;
     display: inline-block;
+    margin-top: .5rem;
 }
 .logo-icon {
     background: url('../img/logo-icon.png');
@@ -118,7 +120,7 @@
     text-transform: uppercase;
 }
 .top-navigation .green-btn {
-    padding: 8px 25px;
+    padding: 8px 15px;
 }
 
 .menu-bg .green-btn {
@@ -165,8 +167,19 @@
 .menu-list li a:hover, .menu-list li a:active, .menu-list .current-menu-item, .menu-bg .menu-list li a:hover, .menu-bg .menu-list li a:active, .menu-bg .menu-list .current-menu-item {
     border-color: #029cf2;
 }
-
-
+@media only screen and (min-width: 48rem) {
+    .menu-list li, .menu-bg .menu-list li {
+        margin-left: 1rem;
+    }
+}
+@media only screen and (min-width: 58rem) {
+    .menu-list li, .menu-bg .menu-list li {
+        margin-left: 2rem;
+    }
+    .top-navigation .green-btn {
+        padding: 8px 25px;
+    }
+}
 
 .menu-list li:first-child {
     margin-left: 0px;

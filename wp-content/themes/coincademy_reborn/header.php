@@ -32,7 +32,7 @@
 	
         <nav class="top-navigation <?php if (is_course()) { echo "white-nav"; echo " ".strtolower(wp_get_object_terms($post->ID, 'course_cat')[0]->name);} ?>" id="top-nav" role="navigation">
         	<div class="max-width-menu vmid">
-            	<div class="pure-u-1 pure-u-lg-1-5 pure-u-md-1-3">
+            	<div class="pure-u-1 pure-u-lg-1-5 pure-u-md-1-5">
                 	<a class="logo" href="<?php echo home_url(); ?>"><span class="logo-img"></span></a>
                     <button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;">MENU<svg fill="#029cf2" height="15px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></button>
                 	<button class="menu-toggle" onclick="toggleDisplay();" style="margin-left: auto;"></button>
@@ -40,7 +40,7 @@
                 <div class="pure-u-1 pure-u-lg-3-5 pure-u-md-3-5">
                 	<?php cc_header_menu(); ?>
                 </div>
-                <div class="pure-u-1 pure-u-lg-1-5 pure-u-md-1-3 login-holder">
+                <div class="pure-u-1 pure-u-lg-1-5 pure-u-md-1-5 login-holder">
                 <?php
                 if (!is_user_logged_in()) {  
                 ?>
