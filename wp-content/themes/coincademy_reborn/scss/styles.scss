@@ -128,7 +128,7 @@ blockquote .cite {
 	color: $color-gray-light;
 }
 
-.contact-info a {
+.contact-info {
 	font-size: 1.2rem;
 	color: $color-blue;
 }
@@ -180,4 +180,17 @@ blockquote .cite {
 .llms-form-field.type-checkbox input {
 	margin-top: .3rem;
 	margin-right: 0;
+}
+
+
+// LifterLMS Dashboard Pages
+.llms-person-form.edit-account {
+	margin-top: 2rem;
+}
+.llms-notification-list {
+	margin-top: 2rem;
+}
+#llms-password-change-toggle {
+	color: $color-blue;
+	text-decoration: underline;
 }
