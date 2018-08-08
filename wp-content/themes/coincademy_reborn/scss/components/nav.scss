@@ -19,7 +19,7 @@
 .menu-toggle {
     position: absolute;
     right: 20px;
-    top: 1.9rem;
+    top: 0rem;
     display: none;
     color: $color-blue;
     font-weight: 800;
@@ -255,6 +255,7 @@ background: $color-green;
         margin-left: -20px; 
         width: 100vw;
         border-top: 1px solid $color-gray-lightest;
+        text-align: left;
     }
 
     .login-btn {
