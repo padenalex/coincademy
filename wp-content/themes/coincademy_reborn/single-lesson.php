@@ -25,7 +25,7 @@
     	</section>
     	
 
-	<div class="sidebar-1-3" id="nav-sidebar-holder>
+	<div class="sidebar-1-3" id="nav-sidebar-holder" style="z-index: 99999;">
     	<aside class="nav-sidebar" id="nav-sidebar">
             <h4>Course Navigation</h4>
     		<!-- <button id="fullscreen-mode-sidebar">fullscreen</button> -->
