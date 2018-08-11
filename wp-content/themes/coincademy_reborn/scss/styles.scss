@@ -195,6 +195,15 @@ blockquote .cite {
 
 
 // LifterLMS Dashboard Pages
+
+.llms-new-person-form-wrapper h4, .llms-person-login-form-wrapper h4 {
+	margin: 0px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 2em;
+    color: #211d2d;
+}
+
 .llms-person-form.edit-account {
 	margin-top: 2rem;
 }
@@ -205,6 +214,28 @@ blockquote .cite {
 	color: $color-blue;
 	text-decoration: underline;
 }
+.llms-form-field.type-html {
+	text-align: left;
+	padding-top: 1rem;
+}
+@media only screen and (min-width: 768px) {
+	.col-1, .col-2 {
+		width: 50%;
+		box-sizing: border-box;
+		float: left;
+		clear: none;
+	}
+	.col-1 {
+		padding-right: 5%;
+	}
+	.col-2 {
+		float: right;
+		border-left: 1px solid $color-gray-lightest;
+		padding-left: 5%;
+	}
+}
+
+
 
 
 // express courses

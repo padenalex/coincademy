@@ -20,7 +20,9 @@
 
 	</head>
 	<body <?php echo body_class(); ?>>
-		<div class="auth-holder" id="auth-holder-id">
+	<!-- REMOVED AS HAVE NEW PAGE FOR LOGIN INSTEAD OF THIS...
+
+    	<div class="auth-holder" id="auth-holder-id">
             <div class="background-layer" id="background-layer"></div>
             <div class="auth-form-holder active" id="login-holder">
             	<?php echo do_shortcode('[lifterlms_login layout="columns" redirect="'.'esc_url( $redirect )'.'"]'); ?>
@@ -28,7 +30,7 @@
             <div class="auth-form-holder" id="registration-holder">
             	<?php get_template_part('auth', 'register'); ?>
             </div>
-		</div>
+		</div> -->
 	
         <nav class="top-navigation <?php if (is_course()) { echo "white-nav"; echo " ".strtolower(wp_get_object_terms($post->ID, 'course_cat')[0]->name);} ?>" id="top-nav" role="navigation">
         	<div class="max-width-menu vmid">
