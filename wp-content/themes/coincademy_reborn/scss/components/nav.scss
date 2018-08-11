@@ -156,7 +156,7 @@
 .white-nav .menu-list > li {
     color: #fff;
 }
-.white-nav .menu-list > li > a:hover, .white-nav .menu-list > li a:active {
+.white-nav .menu-list > li > a:hover, .white-nav .menu-list > li a:active, .current-menu-item a {
     border-color: #fff;
 }
 
@@ -173,7 +173,7 @@
     border-bottom: 1px solid transparent;
     padding: .5rem .2rem .2rem;
     }
-.menu-list li a:hover, .menu-list li a:active, .menu-list .current-menu-item, .menu-bg .menu-list li a:hover, .menu-bg .menu-list li a:active, .menu-bg .menu-list .current-menu-item {
+.menu-list li a:hover, .menu-list li a:active, .menu-list .current-menu-item a, .menu-list .current-menu-parent > a, .menu-bg .menu-list li a:hover, .menu-bg .menu-list li a:active, .menu-bg .menu-list .current-menu-item a {
     border-color: #029cf2;
 }
 @media only screen and (min-width: 48rem) {

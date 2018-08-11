@@ -128,12 +128,23 @@ blockquote .cite {
 	color: $color-gray-light;
 }
 
-.contact-info {
-	font-size: 1.2rem;
+.contact-info-tile a {
+	font-size: 1rem;
 	color: $color-blue;
 }
-.contact-info a:hover, .contact-info a:active {
-	text-decoration: underline;
+@media only screen and (max-width: 768px) {
+	.contact-info-tile {
+		max-width: 25rem;
+		padding: 0;
+	}
+	.contact-info-tile a {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.contact-info-tile div {
+		padding-left: 2rem;
+	}
 }
 
 

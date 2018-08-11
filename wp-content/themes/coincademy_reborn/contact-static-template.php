@@ -13,8 +13,8 @@
                 </p>
             </div> 
             <div class="pure-u-1 vmid ex-st">
-                    <div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2 type-tile">
-                        <a href="mailto:contact@coincademy.com"><div class="type-tile-bg type-tile-express contact-info">
+                    <div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2 type-tile contact-info-tile">
+                        <a href="mailto:contact@coincademy.com"><div class="type-tile-bg type-tile-express">
                                 contact@coincademy.com
                         </div></a>
                     </div>
