@@ -10,9 +10,6 @@
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
                 </p>
-
-                <?php echo do_shortcode('[lifterlms_course_outline course_id="404"]'); ?>
-                
             </div>
              <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid">
                 <div class="sidebar">
@@ -43,6 +40,9 @@
 
                     <!--End mc_embed_signup-->
                 </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <?php echo do_shortcode('[lifterlms_course_outline course_id="404"]'); ?>
             </div>
         </div>
         
