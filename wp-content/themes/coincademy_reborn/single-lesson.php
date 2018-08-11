@@ -19,13 +19,6 @@
     
     <article id="lesson-content" <?php post_class('max-width content-section layout-content-fs'); ?>>
     
-    	<div class="lesson-titlebar">
-    		<button id="fullscreen-mode">fullscreen</button>
-    		<button id="default-mode">default</button>
-    		<button id="fullscreen-split-mode">fs split</button>
-    		<h1 class="lesson-title" title="<?php the_title(); ?>"><?php the_title(); ?></h1>
-    	</div>
-    	
     	<section class="content-2-3">
     		<div class="col-left">
     		<?php the_content(); // Dynamic Content ?>
@@ -38,7 +31,7 @@
     		<!-- <button id="fullscreen-mode-sidebar">fullscreen</button> -->
     		<!-- <button id="fullscreen-split-mode-sidebar">fs split</button> -->
     		<div id="sidebar-slide">
-    		<?php echo do_shortcode('[lifterlms_course_outline collapse="true"]'); ?>
+    		  <?php echo do_shortcode('[lifterlms_course_outline collapse="true"]'); ?>
     		</div>
     		<div id="sidebar-slideout"></div>
     		<?php if(llms_is_user_enrolled( get_current_user_id(), $post->ID )) { 
@@ -50,9 +43,6 @@
     	</aside>
     </div>
     	
-    	<div class="pure-u-1">
-		<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
-		</div>
     </article>
 
 

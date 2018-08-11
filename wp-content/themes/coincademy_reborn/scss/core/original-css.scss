@@ -1032,6 +1032,19 @@ header .arrow-btn {
     color: #fa478f;
 }
 
+.layout-content-fs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-2-3 {
+    width: 66.6667%;
+}
+
+.sidebar-1-3 {
+    width: 33.3333%;
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -1224,59 +1237,9 @@ header .arrow-btn {
 		width: 100%;
 	}
 	
-	/* LAYOUT CONTENT + DOCKED SIDEBAR (always used on phone) */
 	
-	.continue-bar {
-		position: absolute;
-		top: 0px;
-		height: 10px;
-		overflow: hidden;
-		width: 100%;
-		left: 0px;
-		border-radius: 0px; 
-	}
 	
-	.lesson-titlebar {
-		display: none;
-	}
 	
-	.content-2-3 {
-		width: 100%;
-	}
-
-	.nav-sidebar {
-		position: fixed;
-		bottom: 0px;
-		left: 0px;
-		width: 100%;
-		padding-top: 30px;
-		max-height: 100%;
-		overflow: auto;
-	}
-	
-	.nav-sidebar #fullscreen-mode-sidebar, .nav-sidebar #fullscreen-split-mode-sidebar {
-		display: none
-	}
-	
-	#sidebar-slide {
-		display: none;
-	}
-	
-	#sidebar-slideout {
-		height: 20px;
-		width: 20px;
-		background: red;
-		position: absolute;
-		top: calc(50% - 10px);
-		transform: translateY(-50%);
-		left: 50%;
-		transform: translateX(-50%);
-	}
-	
-	#sidebar-slide.displayed + #sidebar-slideout {
-		top: 25px;
-		transform: translateY(0%);
-	}
 	
 	/* course list mobile (1 per row) */
 	
