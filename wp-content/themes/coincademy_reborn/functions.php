@@ -615,11 +615,6 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 }
 
 
-
-
-
-
-
 // added to remove warning about theme not fully supported by LifterLMS
 /**
  * Declare explicit theme support for LifterLMS course and lesson sidebars
