@@ -636,17 +636,22 @@ function cc_extra_menu()
  * @return   array            
  */
 function my_remove_dashboard_tabs( $tabs ) {
-    // unset( $tabs['view-courses'] );
-    // unset( $tabs['view-achievements'] );
     unset( $tabs['notifications'] );
-    // unset( $tabs['edit-account'] );
-    // unset( $tabs['redeem-voucher'] );
-    // unset( $tabs['orders'] );
-    // unset( $tabs['orders'] );
     unset( $tabs['view-memberships'] );
     unset( $tabs['signout'] );
     return $tabs;
 }
 add_filter( 'llms_get_student_dashboard_tabs', 'my_remove_dashboard_tabs' );
+
+// added to remove warning about theme not fully supported by LifterLMS
+/**
+ * Declare explicit theme support for LifterLMS course and lesson sidebars
+ * @return   void
+ */
+function my_llms_theme_support(){
+    add_theme_support( 'lifterlms-sidebars' );
+}
+add_action( 'after_setup_theme', 'my_llms_theme_support' );
+
 
 ?>
