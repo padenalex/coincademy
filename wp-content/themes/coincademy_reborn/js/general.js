@@ -37,41 +37,41 @@ function toggleSubmenu(elem) {
 // }
 
 
-var doc = document.getElementById("top-nav-menu");
-for (var g = 0; g < doc.childNodes.length; g += 2) {
-    if (doc.childNodes[g].classList.contains('menu-item-has-children')) {
-      doc.childNodes[g].insertBefore(newToggle, doc.childNodes[g].getElementsByTagName('ul')[0]);
-    }        
-}
+// var doc = document.getElementById("top-nav-menu");
+// for (var g = 0; g < doc.childNodes.length; g += 2) {
+//     if (doc.childNodes[g].classList.contains('menu-item-has-children')) {
+//       doc.childNodes[g].insertBefore(newToggle, doc.childNodes[g].getElementsByTagName('ul')[0]);
+//     }        
+// }
 
-var y = 0;
+// var y = 0;
 
-try {
-	document.getElementById("login-button").onclick = function() {openTab('login-holder')}
-}
-catch(err) {
-    console.log(err);
-}
+// try {
+// 	document.getElementById("login-button").onclick = function() {openTab('login-holder')}
+// }
+// catch(err) {
+//     console.log(err);
+// }
 
-try {
-	document.getElementById("signup-button").onclick = function() {openTab('registration-holder')}
-}
-catch(err) {
-    console.log(err);
-}
+// try {
+// 	document.getElementById("signup-button").onclick = function() {openTab('registration-holder')}
+// }
+// catch(err) {
+//     console.log(err);
+// }
 
-function openTab(type) {
-    y = window.pageYOffset || document.documentElement.scrollTop;
-    document.documentElement.scrollTop = document.body.scrollTop = 0;
-    document.body.style.overflow = "hidden";
-    document.getElementById('auth-holder-id').classList.add('active');
-    var current = document.getElementsByClassName("auth-form-holder active");
-    current[0].classList.toggle('active');
-    document.getElementById(type).classList.toggle('active');
-}
+// function openTab(type) {
+//     y = window.pageYOffset || document.documentElement.scrollTop;
+//     document.documentElement.scrollTop = document.body.scrollTop = 0;
+//     document.body.style.overflow = "hidden";
+//     document.getElementById('auth-holder-id').classList.add('active');
+//     var current = document.getElementsByClassName("auth-form-holder active");
+//     current[0].classList.toggle('active');
+//     document.getElementById(type).classList.toggle('active');
+// }
 
-document.getElementById('background-layer').onclick = function() {
-    document.getElementById('auth-holder-id').classList.remove('active');
-    document.body.style.overflow = "auto";
-    document.documentElement.scrollTop = document.body.scrollTop = y;
-}
+// document.getElementById('background-layer').onclick = function() {
+//     document.getElementById('auth-holder-id').classList.remove('active');
+//     document.body.style.overflow = "auto";
+//     document.documentElement.scrollTop = document.body.scrollTop = y;
+// }
