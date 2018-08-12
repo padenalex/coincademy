@@ -35,7 +35,13 @@
 	overflow: auto;
 	padding-bottom: 2rem;
 }
-
+.llms-button-action {
+	@extend .green-btn;
+}
+.llms-form-field.type-submit button:not(.auto) {
+	width: auto;
+	
+}
 
 
 

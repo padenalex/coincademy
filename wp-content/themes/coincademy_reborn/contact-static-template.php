@@ -23,12 +23,4 @@
     </section>
 </div>
 
-
-        <!-- single page js / instead of registering functions -->
-        <script src="<?php echo get_template_directory_uri(); ?>/js/parallax.min.js"></script>
-        <script>
-            var scene = document.getElementById('scene');
-            var parallaxInstance = new Parallax(scene);
-        </script>
-
 <?php get_footer(); ?>
