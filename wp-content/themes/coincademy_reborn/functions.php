@@ -45,9 +45,12 @@ function dashboard_tabs_filter($tabs) {
     unset( $tabs['view-achievements'] );
     unset( $tabs['redeem-voucher'] );
     unset( $tabs['orders'] );
+    unset( $tabs['notifications'] );
+    unset( $tabs['view-memberships'] );
+    unset( $tabs['signout'] );
     return $tabs;
 }
-    
+
 add_filter('llms_get_student_dashboard_tabs', 'dashboard_tabs_filter');
 
 function remove_single_lesson_actions() {
@@ -629,19 +632,7 @@ function cc_extra_menu()
 
 
 
-// LIFTERLMS Customize Student Dashboard Tabs
-/**
- * Remove tabs from the LifterLMS Student dashboard
- * @param    array     $tabs  registered tabs
- * @return   array            
- */
-function my_remove_dashboard_tabs( $tabs ) {
-    unset( $tabs['notifications'] );
-    unset( $tabs['view-memberships'] );
-    unset( $tabs['signout'] );
-    return $tabs;
-}
-add_filter( 'llms_get_student_dashboard_tabs', 'my_remove_dashboard_tabs' );
+
 
 // added to remove warning about theme not fully supported by LifterLMS
 /**
