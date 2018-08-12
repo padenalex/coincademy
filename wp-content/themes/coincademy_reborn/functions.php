@@ -615,20 +615,6 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 }
 
 
-function cc_extra_menu()
-{
-    wp_nav_menu(
-    array(
-        'theme_location'  => 'extra-menu',
-        'container_class' => 'menu-{menu slug}-container',
-        'echo'            => true,
-        'fallback_cb'     => 'wp_page_menu',
-        'items_wrap'      => '<ul class="menu-list" id="top-nav-menu">%3$s</ul>',
-        'depth'           => 0,
-        'walker'          => ''
-        )
-    );
-}
 
 
 
