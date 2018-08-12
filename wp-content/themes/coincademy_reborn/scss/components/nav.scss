@@ -99,7 +99,7 @@
     box-shadow: 0px 0px 15px rgba(80, 80, 80,.35);
 }
 
-.white-nav .green-btn:active {
+.white-nav .green-btn:active, .white-nav .green-btn:focus {
     background: #efefef;
 }
 
@@ -141,7 +141,7 @@
     background: #35cc63;
 }
 
-.green-btn:active, .menu-bg .green-btn:active, .llms-button-primary:focus, .llms-button-primary:active {
+.green-btn:active, .green-btn:focus, .menu-bg .green-btn:active, .menu-bg .green-btn:focus, .llms-button-primary:focus, .llms-button-primary:active {
     box-shadow: 0px 2px 10px rgba(53,204,99,.35);
     background: #31b559;
 }

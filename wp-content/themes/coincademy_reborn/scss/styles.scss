@@ -179,7 +179,7 @@ blockquote .cite {
 	color: $color-gray;
 }
 
-.llms-form-field {
+.llms-form-field:not(.type-submit) {
 	width: 100% !important;
     max-width: 30rem;
 }
@@ -253,7 +253,9 @@ blockquote .cite {
 	@extend .bitcoin;
 	width: 100%;
 	max-width: 333px;
+	float: left;
 }
+
 .express-courses .llms-lesson .llms-lesson-complete {
 	display: none;
 }
@@ -288,4 +290,52 @@ blockquote .cite {
 	border-left: 1px solid $color-gray-lightest;
 	margin-left: 3rem;
 	}
+}
+
+
+// LifterLMS buttons
+.llms-button-primary {
+	@extend .green-btn;
+}
+.llms-incomplete-lesson-form {
+	margin-top: 2rem;
+}
+.llms-button-secondary {
+	padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #d4d3da;
+    color: $color-gray-light;
+    font-size: .8em;
+    font-weight: 600;
+    transition: all .3s;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &:focus {
+    	background-color: $color-gray-lightest;
+    	color: $color-gray-light;
+    }
+    &:hover {
+    	background-color: $color-gray-lightest;
+    	color: $color-gray-light;
+    }
+    &:active {
+    	background-color: $color-gray-lightest;
+    	color: $color-gray-light;
+    }
+    &:visited {
+    	background-color: $color-gray-lightest;
+    	color: $color-gray-light;
+    }
+}
+
+// standard course
+#lesson-content {
+	margin-bottom: 3rem;
+}
+
+// lifterlms purchase 
+// removes option to login when signing up for a course because is currently broken to link to /wp-admin/ instead of /dashboard/
+.llms-notice:not(.llms-error) {
+	display: none;
 }
