@@ -384,17 +384,20 @@ blockquote .cite {
 
 
 // Certificates 
-.llms_certificate h1 {
+.llms-certificate-container {
+	margin-top: 8rem;
+}
+.llms-certificate-container h1 {
 	color: $color-blue;
 	font-weight: 400;
 }
-.llms_certificate .certificate-name {
+.llms-certificate-container .certificate-name {
 	margin-top: -.5rem;
     font-weight: 600;
     font-style: italic;
     font-size: 1.3rem;
 	text-transform: capitalize;
 }
-.llms_certificate .certificate-description {
+.llms-certificate-container .certificate-description {
 	color: $color-blue;
 }
