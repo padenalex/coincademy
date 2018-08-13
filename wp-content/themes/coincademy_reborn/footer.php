@@ -41,7 +41,7 @@
 						Copyright &copy; <?php echo date("Y"); ?> Coincademy
 					</div>
 					<div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2">
-					        <a class="social-icon" href="#" target="_blank"><img alt="Facebook" src="<?php echo get_template_directory_uri(); ?>/img/facebook.svg" onerror="this.src='<?php echo get_template_directory_uri(); ?>/img/facebook.png'; this.onerror=null;"></a><a class="social-icon" href="#" target="_blank"><img alt="Twitter" src="<?php echo get_template_directory_uri(); ?>/img/twitter.svg" onerror="this.src='<?php echo get_template_directory_uri(); ?>/img/twitter.png'; this.onerror=null;"></a>
+					        <a class="social-icon" href="https://www.facebook.com/Coincademy/" target="_blank"><img alt="Facebook" src="<?php echo get_template_directory_uri(); ?>/img/facebook.svg" onerror="this.src='<?php echo get_template_directory_uri(); ?>/img/facebook.png'; this.onerror=null;"></a><a class="social-icon" href="https://twitter.com/thecoincademy" target="_blank"><img alt="Twitter" src="<?php echo get_template_directory_uri(); ?>/img/twitter.svg" onerror="this.src='<?php echo get_template_directory_uri(); ?>/img/twitter.png'; this.onerror=null;"></a>
 					</div>
 				</div>
 

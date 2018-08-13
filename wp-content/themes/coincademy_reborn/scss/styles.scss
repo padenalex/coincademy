@@ -255,6 +255,46 @@ blockquote .cite {
 	max-width: 333px;
 	float: left;
 }
+// .express-courses .llms-lesson:nth-child(3n+3), .express-courses .llms-lesson:nth-child(3n+4) {
+// 	margin-left: 5%;
+// }
+// .express-courses .llms-lesson:nth-child(3n+2) {
+// 	clear: both;
+// }
+
+@media only screen and (min-width: 767px) {
+	.express-courses .llms-lesson {
+		width: 45%;
+		clear: none;
+	}
+	.express-courses .llms-lesson:nth-child(2n+3) {
+		margin-left: 5%;
+	}
+	.express-courses .llms-lesson:nth-child(2n+2) {
+		clear: both;
+	}
+}
+@media only screen and (min-width: 1047px) {
+	// reverse out items from mid size
+	.express-courses .llms-lesson:nth-child(2n+3) {
+		margin-left: 0;
+	}
+	.express-courses .llms-lesson:nth-child(2n+2) {
+		clear: none;
+	}
+
+	
+	.express-courses .llms-lesson {
+		width: 30%;
+	}
+	.express-courses .llms-lesson:nth-child(3n+3), .express-courses .llms-lesson:nth-child(3n+4) {
+		margin-left: 5%;
+	}
+	.express-courses .llms-lesson:nth-child(3n+2) {
+		clear: both;
+	}
+}
+
 
 .express-courses .llms-lesson .llms-lesson-complete {
 	display: none;
