@@ -374,6 +374,34 @@ blockquote .cite {
 #lesson-content {
 	margin-bottom: 3rem;
 }
+.course_tag-disabled {
+	opacity: .5;
+	cursor: default !important;
+	pointer-events: none;
+}
+.course_tag-disabled.type-tile:hover {
+	margin-top: 40px !important;
+	margin-bottom: 0 !important;
+}
+.course_tag-disabled a {
+	cursor: default !important;
+}
+.course_tag-disabled:before {
+	background: $color-gray !important;
+	    background-image: linear-gradient(to bottom, $color-gray, $color-gray-light) !important;
+}
+.course_tag-disabled .category-title {
+	color: $color-gray !important;
+}
+.course_tag-disabled .arrow-btn {
+	color: #fff;
+	font-size: 0;
+}
+.course_tag-disabled .arrow-btn:before {
+	content: "Coming Soon! ";
+	color: $color-gray;
+	font-size: .9rem;	
+}
 
 // lifterlms purchase 
 // removes option to login when signing up for a course because is currently broken to link to /wp-admin/ instead of /dashboard/
