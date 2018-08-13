@@ -380,3 +380,20 @@ blockquote .cite {
 .llms-notice:not(.llms-error) {
 	display: none;
 }
+
+
+
+// Certificates 
+.llms_certificate h1 {
+	color: $color-blue;
+	font-weight: 400;
+}
+.llms_certificate .certificate-name {
+	margin-top: -.5rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+	text-transform: capitalize;
+}
+.llms_certificate .certificate-description {
+	color: $color-blue;
+}
