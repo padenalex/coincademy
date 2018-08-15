@@ -429,3 +429,9 @@ blockquote .cite {
 .llms-certificate-container .certificate-description {
 	color: $color-blue;
 }
+
+
+// fix buttons not being full size
+.llms-form-field.type-submit {
+	width: 100%;
+}

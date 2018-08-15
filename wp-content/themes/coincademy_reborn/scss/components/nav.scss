@@ -251,7 +251,8 @@ background: $color-green;
 }
 
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 767px) {
     /* nav hover effect - never on phone */
     
     .menu-list li > ul {
@@ -260,8 +261,7 @@ background: $color-green;
     .sub-menu {
         box-shadow: none;
     }
-}
-@media only screen and (max-width: 767px) {
+
     /* phone specific nav css */
     
     .menu-list {
