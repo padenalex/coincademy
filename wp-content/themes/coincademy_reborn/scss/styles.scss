@@ -435,3 +435,17 @@ blockquote .cite {
 .llms-form-field.type-submit {
 	width: 100%;
 }
+
+//fix menu dashboard button sizing on smaller screens
+@media only screen and (max-width: 963px) {
+	.login-holder {
+		letter-spacing: -1px;
+	}
+	.login-btn {
+		margin-left: .5rem;
+	}
+	.top-navigation .green-btn {
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+}
