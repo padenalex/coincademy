@@ -21,7 +21,7 @@
                     	<span class="meta-feature">Difficulty: <?php echo $course->get_difficulty(); ?></span>
                     	<?php }?>
                     </div>
-                    <?php do_action('coincademy_enroll_action'); ?>
+                    <?php if(has_term('Disabled', 'course_tag')) { echo 'Coming Soon!'; }else { do_action('coincademy_enroll_action'); }?>
                 </div>
         </div>
     </header>
@@ -57,7 +57,7 @@
                 <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">
             </div>
             <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                <?php do_action('coincademy_enroll_action'); ?>
+                <?php if(has_term('Disabled', 'course_tag')) { echo ''; }else { do_action('coincademy_enroll_action'); }?>
             </div>
         </div>
     </section>
