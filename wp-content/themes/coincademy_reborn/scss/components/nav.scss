@@ -54,20 +54,23 @@
 }
 
 .menu-bg .logo-img {
-    background-image: url('../img/logo.png') !important;
+    background-image: url('../img/coincademy-logo-beta.png') !important;
+    background: url('../img/coincademy-logo-beta.svg') left center no-repeat !important;
 }
 
 .logo-img {
-    background: url('../img/logo.png');
-    height: 1.5rem;
+    background: url('../img/coincademy-logo-beta.png');
+    background: url('../img/coincademy-logo-beta.svg') left center no-repeat;
+    height: 1.6rem;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     display: inline-block;
-    margin-top: .5rem;
+    // margin-top: .5rem;
 }
 .logo-icon {
-    background: url('../img/logo-icon.png');
+    background: url('../img/coincademy-logo-icon.png');
+    background: url('../img/coincademy-logo-icon.svg') left center no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     height: 2.5rem;
@@ -104,7 +107,8 @@
 }
 
 .white-nav .logo-img {
-    background-image: url('../img/logo-white.png');
+    background-image: url('../img/coincademy-logo-white-beta.png');
+    background: url('../img/coincademy-logo-white-beta.svg') left center no-repeat;
 }
 
 
