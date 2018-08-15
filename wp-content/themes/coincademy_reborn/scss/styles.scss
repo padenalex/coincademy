@@ -437,7 +437,7 @@ blockquote .cite {
 }
 
 //fix menu dashboard button sizing on smaller screens
-@media only screen and (max-width: 963px) {
+@media only screen and (max-width: 963px) and (min-width: 767px) {
 	.login-holder {
 		letter-spacing: -1px;
 	}
