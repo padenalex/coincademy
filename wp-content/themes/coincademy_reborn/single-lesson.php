@@ -1,4 +1,4 @@
-<?php /* Template Name: Single Lesson static */ get_header(); ?>
+<?php /* Template Name: Single Lesson Template */ get_header(); ?>
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	

@@ -1,4 +1,4 @@
-<?php /* Template Name: Course Catalog static */ get_header(); ?>
+<?php /* Template Name: Single Course Template */ get_header(); ?>
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	
@@ -44,7 +44,7 @@
         </div>
     </section>
 
-    <section class="section section-grey">
+    <section class="section section-grey no-bottom-margin">
         <div class="pure-g vmid max-width">
             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                 <div class="title">
