@@ -95,22 +95,6 @@
 			<?php echo do_shortcode('[lifterlms_courses category="zz-featured" posts_per_page="-1"]'); ?>
         </section>
         
-        <section class="gradient-general" style="padding: 40px 20px;">
-        	<div class="max-width">
-        		<div class="cta-hold vmid" style="padding: 0px; background: none;">
-                    <div class="pure-u-1" style="text-align: center; margin-bottom: 40px;">
-                        <div class="heading">This is an example cta</div>
-                        <div class="subheading">MOre example rejah</div>
-                    </div>
-                    <div class="pure-u-1 buttons" style="margin-top: 0px !important;">
-                        <a href="#" class="cta-opaque"> wowzer </a>
-                        <a href="#" class="cta-white">wowzer indeed</a>
-                    </div>
-            	</div>
-        	</div>
-        </section>
-        
-        
 		<!-- single page js / instead of registering functions -->
 		<script src="<?php echo get_template_directory_uri(); ?>/js/parallax.min.js"></script>
 		<script>

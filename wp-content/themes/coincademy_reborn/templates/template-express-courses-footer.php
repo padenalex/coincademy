@@ -1,4 +1,4 @@
-<section class="section section-grey">
+<section class="section section-grey no-bottom-padding">
     <div class="pure-g vmid max-width no-side-padding">
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 section-desc">
             <div class="title">

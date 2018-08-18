@@ -32,7 +32,7 @@
 	padding: .5rem 2rem;
 }
 
-#mc_embed_signup {
+.express-course-email-signup {
 	overflow: auto;
 	padding-bottom: 2rem;
 }
@@ -448,4 +448,23 @@ blockquote .cite {
 		padding-right: 8px;
 		padding-left: 8px;
 	}
+}
+
+
+.footer-newsletter-signup {
+	float: right;
+	width: 90%;
+	max-width: 30rem;
+}
+.mc-field-group {
+	text-align: left;
+}
+.cta-hold {
+	margin-top: 0;
+}
+
+
+
+.no-bottom-padding {
+	margin-bottom: 0;
 }

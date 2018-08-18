@@ -944,7 +944,6 @@ header .arrow-btn {
     flex-wrap: wrap;
     background: #029cf2;
     background-image: linear-gradient(to right, #029cf2, #09befb);
-    border-radius: 10px;
     margin: 40px 0px;
     padding: 50px;
     color: white;
@@ -955,10 +954,16 @@ header .arrow-btn {
     font-size: 1.5em;
     font-weight: 600;
     margin-bottom: 10px;
+    color: white;
+    margin-top: 0;
 }
 
 .cta-hold .subheading {
     font-size: .9em;
+    color: white;
+}
+.cta-hold p {
+    color: white;
 }
 
 .buttons {
@@ -1230,7 +1235,7 @@ header .arrow-btn {
 	.cta-hold .cta-white, .cta-hold .cta-opaque {
 		margin: auto auto;
 		margin-top: 20px;
-		max-width: 350px;
+		// max-width: 350px;
 		width: 100%;
 	}
 	
