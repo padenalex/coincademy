@@ -50,6 +50,6 @@
 
     </div>
 
-    <?php get_template_part( 'templates/template', 'standard-courses-footer' ); ?>
+    <?php get_template_part( 'components/template', 'standard-courses-footer' ); ?>
         
 <?php get_footer(); ?>

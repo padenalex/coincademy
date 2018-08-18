@@ -32,6 +32,6 @@
         </div>
     </div>
 
-    <?php get_template_part( 'templates/template', 'express-courses-footer' ); ?>
+    <?php get_template_part( 'components/template', 'express-courses-footer' ); ?>
         
 <?php get_footer(); ?>
