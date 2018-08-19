@@ -1,0 +1,18 @@
+.contact-info-tile a {
+	font-size: 1rem;
+	color: $color-blue;
+}
+@media only screen and (max-width: $break-point-medium) {
+	.contact-info-tile {
+		max-width: 25rem;
+		padding: 0;
+	}
+	.contact-info-tile a {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.contact-info-tile div {
+		padding-left: 2rem;
+	}
+}

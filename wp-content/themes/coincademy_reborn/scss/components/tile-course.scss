@@ -1,0 +1,129 @@
+/* course list css */
+
+.course-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-top: -40px;
+    margin-bottom:  40px;
+}
+
+.course-tile {
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 7px 25px rgba(84,93,101,0.10);
+    overflow: hidden;
+    padding: 0;
+}
+
+.course-tile::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.course-tile span {
+    display: block;
+    margin-left: 30px;
+}
+
+.course-description {
+    margin-left: 30px;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #848d99;
+    line-height: 1.5em;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+
+.category-title {
+    font-weight: 600;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.course-title {
+    font-weight: 600;
+    color: #404852;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.course-tile .arrow-btn {
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 0px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 15px;
+}
+
+.course-tile:hover .arrow-btn::after {
+    margin-left: 10px;
+}
+
+.course-tile:hover .arrow-btn.back::after {
+    transform: rotate(90deg);
+    margin-left: 5px;
+}
+
+.course-tile .duration {
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+    font-size: 0.8em;
+}
+
+.course-tile.developer .category-title, .course-tile.developer .arrow-btn {
+    color: #fa478f;
+}
+
+.course-tile.developer::before {
+    background: #fa478f;
+    background-image: linear-gradient(to bottom, #fa478f, #fb8973);
+}
+
+.course-tile.general .category-title, .course-tile.general .arrow-btn {
+    color: #029cf2;
+}
+
+.course-tile.general::before {
+    background: #029cf2;
+    background-image: linear-gradient(to bottom, #029cf2, #09befb);
+}
+
+.course-tile.investor .category-title, .course-tile.investor .arrow-btn, .course-tile.investing .category-title, .course-tile.investing .arrow-btn {
+    color: #35cc63;
+}
+
+.course-tile.investor::before, .course-tile.investing::before {
+    background: #35cc63;
+    background-image: linear-gradient(to bottom, #35cc63, #87e177);
+}
+
+.course-tile.bitcoin .category-title, .course-tile.bitcoin .arrow-btn, .course-tile.ethereum .category-title, .course-tile.ethereum .arrow-btn, .course-tile.monero .category-title, .course-tile.monero .arrow-btn, .course-tile.mining .category-title, .course-tile.mining .arrow-btn {
+    color: #029cf2;
+}
+
+.course-tile.bitcoin::before, .course-tile.ethereum::before, .course-tile.monero::before, .course-tile.mining::before {
+    background: #029cf2;
+    background-image: linear-gradient(to bottom, #029cf2, #09befb);
+}
+
+@media only screen and (max-width: $break-point-medium) {
+    
+    /* course list mobile (1 per row) */
+    
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+}

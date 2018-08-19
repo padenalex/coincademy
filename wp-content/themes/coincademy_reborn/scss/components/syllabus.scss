@@ -1,0 +1,249 @@
+/* SYLLABUS */
+
+.section.syllabus-section  {
+    overflow: hidden;
+}
+
+.gradient-general {
+    background: #029cf2;
+    background-image: linear-gradient(to right, #029cf2, #09befb);
+}
+
+.gradient-developer {
+    background: #fa478f;
+    background-image: linear-gradient(to right, #fa478f, #fb8973);
+}
+
+.gradient-investor {
+    background: #35cc63;
+    background-image: linear-gradient(to right, #35cc63, #87e177);
+}
+
+.syllabus-holder {
+    white-space: nowrap;
+}
+
+.syllabus-card {
+    width: 250px;
+    min-width: 250px;
+    white-space: normal;
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding-top: 15px;
+    box-shadow: 0px 7px 30px rgba(85,95,100,.35);
+    margin-left: 30px;
+    max-height: 300px;
+    display: inline-block;
+    min-height: 300px;
+    opacity: .8;
+    transition: opacity .3s;
+    overflow: auto;
+    vertical-align: top;
+}
+
+.syllabus-card.os-host {
+    overflow: hidden !important;
+}
+
+.syllabus-card:hover {
+    opacity: 1;
+}
+
+.syllabus-max-width {
+    overflow: auto;
+}
+
+.os-scrollbar-vertical {
+    opacity: 0 !important;
+}
+
+.os-padding:hover ~ .os-scrollbar-vertical {
+    opacity: .7 !important;
+}
+
+.os-scrollbar-horizontal {
+    opacity: 0 !important;
+}
+
+.os-padding:hover ~ .os-scrollbar-horizontal {
+    opacity: .7 !important;
+}
+
+.syllabus-card:first-child {
+    margin-left: 0px;
+}
+
+#max-width-hold {
+    padding-bottom: 60px;
+    position: relative;
+}
+
+#max-width-hold .os-scrollbar-horizontal {
+    max-width: 1100px;
+    margin: auto auto;
+}
+
+.syllabus-card span {
+    font-size: 0.7em;
+    font-weight: 700;
+    padding: 0px 20px;
+    color: #029cf2;
+}
+
+.investor .syllabus-card span {
+    color: #35cc63;
+}
+
+.developer .syllabus-card span {
+    color: #fa478f;
+}
+
+.syllabus-card h3 {
+    margin: 0px;
+    font-weight: 400;
+    color: #211d2d;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.llms-widget-syllabus ul li {
+    margin-bottom: 1.5rem;
+}
+.section-title {
+    font-size: 1.15rem;
+}
+.llms-widget-syllabus ul li ul li {
+    margin: .3rem 0 0 0;
+}
+
+.syllabus-lessons {
+    background: #fcfcfd;
+    box-shadow: 0px 0px 30px rgba(85,95,100,.25) inset;
+    padding: 0px 25px;
+    overflow: auto;
+}
+
+.syllabus-lessons ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.syllabus-lessons ul li {
+    font-size: 0.9em;
+    padding: 20px 0px;
+    position: relative;
+    color: #757575;
+    opacity: .7;
+}
+
+.syllabus-lessons ul li::after {
+    position: absolute;
+    height: 1px;
+    width: 60%;
+    left: 20%;
+    bottom: 0px;
+    background: #e7e7e8;
+    content: '';
+}
+
+.syllabus-lessons ul li::before {
+    position: absolute;
+    height: calc(100% - 20px);
+    width: 5px;
+    background: #029cf2;
+    background-image: linear-gradient(to bottom, #029cf2, #09befb);
+    top: 10px;
+    left: -25px;
+    display: block;
+    content: '';
+    opacity: 0;
+    transition: all .3s;
+}
+
+.investor .syllabus-lessons ul li::before {
+    background: #35cc63;
+    background-image: linear-gradient(to bottom, #35cc63, #87e177);
+}
+
+.developer .syllabus-lessons ul li::before {
+    background: #fa478f;
+    background-image: linear-gradient(to bottom, #fa478f, #fb8973);
+}
+
+.syllabus-lessons ul li:hover::before {
+    opacity: 1;
+}
+
+.syllabus-lessons ul li:hover {
+    opacity: 1;
+}
+
+.syllabus-lessons ul a {
+    position: relative;
+}
+
+.llms-lesson-link-locked, .llms-lesson-link-locked:hover {
+    box-shadow: none !important;
+    min-height: 0;
+    opacity: .4;
+    background: transparent;
+}
+
+.llms-lesson-link-locked:hover {
+    padding: 20px 0px !important;
+    color: #848d99;
+    cursor: no-drop;
+}
+
+.syllabus-lessons .llms-tooltip {
+    display: none;
+}
+
+
+/* dash + proggress styling */
+
+.llms-student-dashboard .llms-sd-item {
+    clear: none;
+    background: white;
+    padding: 10px 10px;
+    font-size: 0.9em;
+    border: 1px solid lightgrey;
+    border-top: 2px solid lightgrey;
+    margin: 0px;
+}
+
+.llms-student-dashboard .llms-sd-item.current {
+    border-top: 2px solid #029cf2;
+}
+
+.progress-background {
+    background-color: whitesmoke;
+    height: 20px;
+    width: 100%;
+}
+
+.progress-foreground {
+    background: #029cf2;
+    background-image: linear-gradient(to right, #029cf2, #09befb);
+    height: 20px;
+}
+
+.llms-progress .progress-bar-complete {
+    background-color: $color-green;
+}
+
+@media only screen and (max-width: $break-point-medium) {
+    
+    /* syllabus on mobile*/
+    
+    .syllabus-card.os-host {
+        overflow: visible !important;
+    }
+    
+    .syllabus-card {
+        opacity: 1;
+    }
+}

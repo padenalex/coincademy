@@ -1,0 +1,36 @@
+
+.features-list {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.features-list li {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.feature-img {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+}
+
+.features-list li span {
+	display: block;
+}
+
+.features-list li div {
+	margin-left: 20px;
+}
+
+.features-list li div span {
+	color: #211d2d;
+	font-size: 1.1em;
+}
+
+.features-list .sub-head {
+	color: #9b9b9b;
+	font-size: .85em;
+}

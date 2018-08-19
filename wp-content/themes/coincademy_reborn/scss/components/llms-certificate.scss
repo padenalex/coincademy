@@ -1,0 +1,25 @@
+.llms-certificate-container {
+    margin-top: 8rem;
+}
+.llms-certificate-container h1 {
+    color: $color-blue;
+    font-weight: 400;
+}
+.llms-certificate-container .certificate-name {
+    margin-top: -.5rem;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.llms-certificate-container .certificate-description {
+    color: $color-blue;
+}
+
+@media only screen and (max-width: $break-point-medium) {
+	
+    .pure-img {
+        margin-top: 60px;
+    }
+    
+}

@@ -1,0 +1,66 @@
+.ex-st {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.type-tile {
+    padding: 0px 20px;
+    margin-top: 40px;
+    transition: margin 0.2s;
+}
+
+.type-tile:hover {
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+
+.type-tile:active {
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.type-tile:active .type-tile-bg {
+    background-color: whitesmoke;
+    box-shadow: 0px 7px 10px rgba(85,95,100,.2);
+}
+
+.type-tile:hover .type-tile-bg {
+    box-shadow: 0px 7px 30px rgba(85,95,100,.08);
+}
+
+
+.type-tile-bg {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 60px;
+    box-shadow: 0px 7px 25px rgba(85,95,100,.1);
+    background-size: auto;
+    transition: all 0.2s;
+}
+
+.type-tile-express {
+    background-image: url(../img/express-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.type-tile-standard {
+    background-image: url(../img/standard-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.type-tile-bg p {
+    font-size: .8em;
+    color: #848d99;
+}
+
+
+.type-tile-standard p, .type-tile-standard span {
+    margin-left: 60px;
+}
+
+.type-tile-express p, .type-tile-express span {
+    margin-right: 60px;
+}

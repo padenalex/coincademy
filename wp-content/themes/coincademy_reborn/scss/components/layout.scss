@@ -1,0 +1,197 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px !important;
+    margin-bottom: 80px; 
+}
+
+.section-grey {
+    background: #fafafa;
+    margin-top: 80px;
+}
+
+.section-desc {
+    padding: 0px 20px;
+}
+
+.section-desc p {
+    color: #4e4e4e;
+    line-height: 1.6em;
+}
+
+.max-width {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: auto auto;
+    position: relative;
+}
+
+.section-first-no-header {
+    padding-top: 140px;
+}
+
+.layout-content-fs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-2-3 {
+    width: 66.6667%;
+}
+
+.sidebar-1-3 {
+    width: 33.3333%;
+}
+
+// standard course
+#lesson-content {
+    margin-bottom: 3rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    /* LAYOUT FULL SCREEN SPLIT */
+    
+    .layout-fullscreen-split .sidebar-1-3 {
+        position: absolute;
+        top: 0px;
+        transform: translateX(-100%);
+        height: 100%;
+        width: 30%;
+        overflow: auto;
+    }
+    
+    .layout-fullscreen-split .sidebar-1-3.fixed {
+        transform: translateX(0%);
+    }
+    
+    .layout-fullscreen-split {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        max-width: none;
+        z-index: 9999;
+        padding: 0px;
+    }
+    
+    .layout-fullscreen-split .content-2-3 {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100%;
+        height: calc(100% - 80px);
+        overflow: auto;
+        background: #FFFFFF;
+    }
+    
+    .layout-fullscreen-split .content-2-3 .col-left {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 50%;
+        height: 100%;
+        overflow: auto;
+        background: #FFFFFF;
+        z-index: 9999;
+        padding: 20px;
+    }
+    
+    .layout-fullscreen-split .content-2-3 .col-right {
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        width: 50%;
+        height: 100%;
+        overflow: auto;
+        background: #FFFFFF;
+        z-index: 9999;
+    }
+    
+    
+    /* LAYOUT FULL SCREEN */
+    
+    .lesson-titlebar {
+        display: block;
+        background: black;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    .layout-fullscreen {
+        position: fixed;
+        display: flex;
+        z-index: 9999;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        max-width: none;
+        padding: 0px;
+    }
+    
+    .layout-fullscreen .sidebar-1-3 {
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        width: 25%;
+        height: calc(100% - 80px);
+        overflow: auto;
+    }
+    
+    .layout-fullscreen .content-2-3 {
+        width: 75%;
+        left: 25%;
+        height: calc(100% - 80px);
+        overflow: auto;
+        background: #FFFFFF;
+        position: absolute;
+        top: 80px;
+        padding: 10px 20px;
+    }
+    
+    .layout-content-fs .nav-sidebar {
+        overflow: auto;
+        float: right;
+        width: calc(100% - 25px);
+    }
+    
+    .layout-content-fs .nav-sidebar {
+        box-shadow: 0px 7px 25px rgba(84,93,101,0.10);
+    }
+    
+    .layout-content-fs .lesson-content-text {
+        padding-right: 20px;
+    }    
+}
+
+
+@media only screen and (max-width: $break-point-medium) {
+
+    .section .section-desc:first-child {
+        margin-bottom: 40px;
+    }
+    
+    /* section margin on phone */
+    .section {
+        margin-bottom: 40px; 
+    }
+
+}
+
+
+
+.no-side-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.no-bottom-margin {
+    margin-bottom: 0;
+}

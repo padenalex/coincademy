@@ -1,6 +1,6 @@
 <?php /* Template Name: Express Courses static */ get_header(); ?>
 
-    <div class="max-width general-page">
+    <div class="max-width section-first-no-header">
         <div class="pure-g vmid">
             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                 <div class="title">
@@ -12,7 +12,6 @@
                 </p>
             </div>
              <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid">
-                <div class="sidebar">
                     <!-- Begin MailChimp Signup Form -->
                     <div id="mc_embed_signup" class="express-course-email-signup">
                     <form action="https://coincademy.us17.list-manage.com/subscribe/post?u=47b89435a286291726ebaf0ea&amp;id=0b0e7385e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -39,7 +38,6 @@
                     </div>
 
                     <!--End mc_embed_signup-->
-                </div>
             </div>
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                 <?php echo do_shortcode('[lifterlms_course_outline course_id="404"]'); ?>

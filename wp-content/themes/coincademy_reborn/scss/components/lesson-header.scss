@@ -1,0 +1,54 @@
+header.article-header {
+    padding-top: 140px;
+    padding-bottom: 1rem;
+}
+
+.article-title::after {
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background: #029cf2;
+    background-image: linear-gradient(to right, #029cf2, #09befb);
+    content: '';
+    left: 0px;
+    bottom: 0px;
+}
+
+.article-title::after {
+    display: none;
+}
+
+.article-header.developer .arrow-btn {
+    color: #fa478f;
+}
+
+.article-header.investor .arrow-btn {
+    color: #35cc63;
+}
+
+.article-title, header .lesson-title {
+    font-size: 2em;
+    display: block;
+    max-width: 600px;
+    color: #211d2d;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.article-header.developer .article-title::after {
+    background: #fa478f;
+    background-image: linear-gradient(to right, #fa478f, #fb8973);
+}
+
+.article-header.investor .article-title::after {
+    background: #35cc63;
+    background-image: linear-gradient(to right, #35cc63, #87e177);
+}
+
+.article-header.developer .title span {
+    color: #fa478f;
+}
+
+.article-header.investing .title span {
+    color: #35cc63;
+}

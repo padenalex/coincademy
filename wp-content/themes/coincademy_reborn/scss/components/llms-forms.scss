@@ -1,0 +1,44 @@
+// login screens for course signup PURCHASE
+.llms-notice {
+    border: none;
+    background: none; //background-color: $color-blue-lightest;
+}
+.llms-notice a {
+    color: $color-blue;
+    text-decoration: underline;
+}
+.llms-notice a:hover, .llms-notice a:active {
+    color: $color-blue-light;
+}
+
+.llms-checkout-section {
+    border: none;
+}
+.llms-checkout-wrapper .llms-form-heading {
+    font-weight: 800;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    background: none;
+    color: $color-gray;
+}
+
+.llms-form-field:not(.type-submit) {
+    width: 100% !important;
+    max-width: 30rem;
+}
+.llms-form-field.type-html label {
+    margin-left: 0;
+    text-transform: none;
+    font-weight: 400;
+    color: #464444;
+}
+.llms-checkout-confirm {
+    padding-top: 0 !important;
+}
+.llms-checkout-wrapper form.llms-login {
+    border: none;
+}
+.llms-form-field.type-checkbox input {
+    margin-top: .3rem;
+    margin-right: 0;
+}

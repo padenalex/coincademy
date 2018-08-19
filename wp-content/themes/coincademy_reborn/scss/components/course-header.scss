@@ -1,0 +1,56 @@
+header.course-header {
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0px;
+    padding-bottom: 160px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.course-header .gradient-cover {
+    background: #008dd6;
+    background-image: linear-gradient(to bottom, #008dd6, #09bdfa);
+}
+
+.course-header.developer .gradient-cover {
+    background:  rgba(250,77,140,1);
+    background-image: linear-gradient(to bottom, rgb(250,77,140), rgb(251,133,117));
+
+}
+
+.course-header.investor .gradient-cover, .course-header.investing .gradient-cover {
+    background: #1fb047;
+    background-image: linear-gradient(to bottom, #1fb047, #83e176);
+}
+
+.course-header .gradient-cover {
+    opacity: .95;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.course-header .max-width {
+    z-index: 2;
+}
+
+.course-header .title span {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.75em;
+}
+
+.course-header .title h1 {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.course-header .title .desc {
+    max-width: 550px;
+    margin: auto auto; 
+}

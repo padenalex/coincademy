@@ -1,0 +1,59 @@
+/* auth modal */
+
+.auth-holder {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.auth-holder.active {
+    display: flex;
+}
+
+.background-layer {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: black;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    opacity: .3;
+}
+
+.auth-form-holder {
+    background: white;
+    position: relative;
+    z-index: 9999;
+    padding: 20px;
+    display: none;
+}
+
+.auth-form-holder.active {
+    display: block;
+}
+
+@media only screen and (max-width: 355px) {
+
+    /* old phones docked sidebar */
+
+    #sidebar-slide {
+        margin-top: -15px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+
+    #sidebar-slideout {
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

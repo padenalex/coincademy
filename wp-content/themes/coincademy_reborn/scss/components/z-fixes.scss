@@ -1,0 +1,5 @@
+// lifterlms purchase 
+// removes option to login when signing up for a course because is currently broken to link to /wp-admin/ instead of /dashboard/
+.llms-notice:not(.llms-error) {
+    display: none;
+}

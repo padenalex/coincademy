@@ -1,0 +1,35 @@
+// LifterLMS buttons
+.llms-button-primary {
+    @extend .green-btn;
+}
+.llms-incomplete-lesson-form {
+    margin-top: 2rem;
+}
+.llms-button-secondary {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #d4d3da;
+    color: $color-gray-light;
+    font-size: .8em;
+    font-weight: 600;
+    transition: all .3s;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &:focus {
+        background-color: $color-gray-lightest;
+        color: $color-gray-light;
+    }
+    &:hover {
+        background-color: $color-gray-lightest;
+        color: $color-gray-light;
+    }
+    &:active {
+        background-color: $color-gray-lightest;
+        color: $color-gray-light;
+    }
+    &:visited {
+        background-color: $color-gray-lightest;
+        color: $color-gray-light;
+    }
+}

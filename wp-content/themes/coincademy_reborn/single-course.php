@@ -29,14 +29,14 @@
     <section class="section no-bottom-margin">
         <div class="pure-g vmid max-width">
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo strtolower($object_terms->name); ?>.svg" class="category-image-icon" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo strtolower($object_terms->name); ?>.svg" class="course-summary-image " />
             </div>
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">
                 <div class="title">
                     <span><?php the_title(); ?></span>
                     <h2>Course Overview</h2>
                 </div>
-                <div class="short">
+                <div class="course-summary-description">
                     <?php the_content(); // Dynamic Content ?>
                 </div>
             </div>

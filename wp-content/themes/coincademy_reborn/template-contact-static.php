@@ -1,6 +1,6 @@
 <?php /* Template Name: Contact static */ get_header(); ?>
 
-<div class="max-width general-page">
+<div class="max-width section-first-no-header">
     <section class="section">
         <div class="pure-g vmid max-width">
             <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">

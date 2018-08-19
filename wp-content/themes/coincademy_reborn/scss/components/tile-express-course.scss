@@ -1,0 +1,44 @@
+// express course tiles
+.express-courses .llms-lesson {
+	@extend .type-tile;
+	@extend .type-tile-express;
+	@extend .course-tile;
+	@extend .bitcoin;
+	width: 100%;
+	max-width: 333px;
+	float: left;
+	min-height: 111px;
+}
+
+@media only screen and (min-width: $break-point-medium) {
+	.express-courses .llms-lesson {
+		width: 45%;
+		clear: none;
+	}
+	.express-courses .llms-lesson:nth-child(2n+3) {
+		margin-left: 5%;
+	}
+	.express-courses .llms-lesson:nth-child(2n+2) {
+		clear: both;
+	}
+}
+@media only screen and (min-width: 1047px) {
+	// reverse out items from mid size
+	.express-courses .llms-lesson:nth-child(2n+3) {
+		margin-left: 0;
+	}
+	.express-courses .llms-lesson:nth-child(2n+2) {
+		clear: none;
+	}
+
+	
+	.express-courses .llms-lesson {
+		width: 30%;
+	}
+	.express-courses .llms-lesson:nth-child(3n+3), .express-courses .llms-lesson:nth-child(3n+4) {
+		margin-left: 5%;
+	}
+	.express-courses .llms-lesson:nth-child(3n+2) {
+		clear: both;
+	}
+}

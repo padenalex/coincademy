@@ -1,6 +1,6 @@
 <?php /* Template Name: Dashboard static */ get_header(); ?>
 
-<div class="max-width general-page">
+<div class="max-width section-first-no-header">
         <div class="pure-g vmid">
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                 <?php echo do_shortcode('[lifterlms_my_account]'); ?>
