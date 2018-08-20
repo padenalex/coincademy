@@ -90,9 +90,6 @@
     color: #fa478f;
 }
 @media only screen and (max-width: $break-point-medium) {
-    
-    /* cta on phone */
-    
     .cta-hold {
         text-align: center;
     }
@@ -105,7 +102,17 @@
     .cta-hold .cta-white, .cta-hold .cta-opaque {
         margin: auto auto;
         margin-top: 20px;
-        // max-width: 350px;
         width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: $break-point-small) {
+    
+    /* cta on phone */
+    
+    .cta-hold {
+        padding-left: 0;
+        padding-right: 0; 
     }
 }

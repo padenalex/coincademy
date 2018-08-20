@@ -57,7 +57,7 @@
     padding: 50px;
 }
 
-@media only screen and (max-width: 355px) {
+@media only screen and (max-width: $break-point-smallest) {
  
 /* category tiles*/
     .category-tile {

@@ -1,8 +1,13 @@
 .footer-newsletter-signup {
-    float: right;
-    width: 90%;
-    max-width: 30rem;
+    
 }
 .mc-field-group {
     text-align: left;
+}
+@media only screen and (min-width: $break-point-medium) {
+	.footer-newsletter-signup {
+		float: right;
+    	width: 90%;
+    	max-width: 30rem;
+	}
 }
