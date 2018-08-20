@@ -7,16 +7,10 @@
     padding-top: 1px;
 }
 
-// hide default title
 .llms-summary h1 {
-    display: none;
-}
-.llms-summary .certificate-title {
-    @extend h1;
-    display: block;
     color: $color-blue;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .llms-certificate-container .certificate-course {
