@@ -6,10 +6,19 @@
     padding-left: 40px;
     padding-top: 1px;
 }
-.llms-certificate-container h1 {
+
+// hide default title
+.llms-summary h1 {
+    display: none;
+}
+.llms-summary .certificate-title {
+    @extend h1;
+    display: block;
     color: $color-blue;
     font-weight: 400;
+    margin-bottom: 3rem;
 }
+
 .llms-certificate-container .certificate-name {
     margin-top: -.5rem;
     font-weight: 600;
@@ -31,8 +40,12 @@
     border: 4px solid #f1f1f1;
 }
 
+// hide "Save" button
+.llms-print-certificate form {
+    display: none;
+}
+
 @media only screen and (max-width: $break-point-medium) {
-	
     .pure-img {
         margin-top: 60px;
     }
