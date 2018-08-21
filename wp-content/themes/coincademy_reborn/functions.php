@@ -636,5 +636,10 @@ function my_llms_theme_support(){
 }
 add_action( 'after_setup_theme', 'my_llms_theme_support' );
 
+// added to change message when login was incorrect.
+function custom_wordpress_error_message(){
+  return 'Your login information was incorrect...';
+}
+add_filter( 'login_errors', 'custom_wordpress_error_message' );
 
 ?>
