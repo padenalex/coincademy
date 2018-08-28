@@ -4,8 +4,8 @@
         <div class="max-width">
             <div class="pure-g vmid">
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <span class="header-title">This is a placeholder for <strong>some cool ass title</strong></span>
-                    <a class="arrow-btn" href="/standard-courses/">Get started on your first crypto course</a>
+                    <h1 class="header-title">Learn everything you need to know about <strong>cryptocurrency</strong>.</h1>
+                    <a class="arrow-btn" href="/coincademy/standard-courses/">Get started on your first crypto course</a>
                 </div>
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">
@@ -23,7 +23,7 @@
                         <h2>Custom-tailored courses</h2>
                     </div>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
+                    Using Coincademy's unique learning environment we'll walk you through the latest in cryptocurrency and blockchain technology. Our courses are built to accomodate users of all backgrounds and experience levels.
                     </p>
                 </div> 
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid" data-relative-input="true" data-hover-only="true"  data-pointer-events="true" id="scene">
@@ -48,16 +48,18 @@
                 </div>
                 <div class="pure-u-1 vmid ex-st">
                     <div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2 type-tile">
-                        <a href="/express-courses/"><div class="type-tile-bg type-tile-express">
-                            <span>Express courses <img src="<?php echo get_template_directory_uri(); ?>/img/express_general.png"></span>
-                            <p>Express courses in a few words. Keep it simple. Express courses in a f express courses in a few words. Keep it simple.</p>
-                        </div></a>
+                         <div class="type-tile-bg type-tile-express">
+                            <h3><strong><span>Express courses <img class="express-icon" src="<?php echo get_template_directory_uri(); ?>/img/express_general.png"></span></strong></h3>
+                            <p>In a rush? Get started with our daily express courses. Each day, we'll send you a customized email with the most up-to-date information regarding cryptocurrency and blockchain technology. </p>
+                            <a class="green-btn" href="http://localhost/coincademy/express-courses/">BROWSE COURSES</a>
+                        </div>
                     </div>
                     <div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2 type-tile">
-                        <a href="/standard-courses/"><div class="type-tile-bg type-tile-standard">
-                            <span>Standard courses</span>
-                            <p>Express courses in a few words. Keep it simple. Express courses in a f express courses in a few words. Keep it simple.</p>
-                        </div></a>
+                        <div class="type-tile-bg type-tile-standard">
+                            <h3><strong><span>Standard courses</span></strong></h3>
+                            <p>For those of you who want to gain a more in depth understanding of these topics, jump into one of our full fledged interactive courses. We'll walk you through everything you need to know, step by step.</p>
+                            <a class="green-btn standard-green-btn" href="http://localhost/coincademy/standard-courses/">BROWSE COURSES</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,33 +69,29 @@
         	<div class="pure-g vmid max-width no-side-padding">
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 section-desc">
                     <div class="title">
-                        <span>CHOOSE YOUR PATH</span>
-                        <h2>Custom-tailored courses</h2>
+                        <span>REWARDING EDUCATION</span>
+                        <h2>Expand your horizons</h2>
                     </div>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
+                    In a time of rapidly evolving technology, the traditional methods for learning have become obsolete. Learning is becoming easier every day, with continuously tailored educational experiences. At Coincademy, we embrace this philosophy and aim to provide the most effective means for covering new technology. 
                     </p>
                     <a href="/standard-courses" class="green-btn green-btn-padding" style="margin-top: 20px;padding-left: 40px; padding-right: 40px;">SIGN UP FOR FREE TODAY</a>
                 </div> 
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 section-desc">
                     <ul class="features-list">
-                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are jews and we like jews. lol nope</span></div></li>
-                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
-                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
-                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
-                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Certificates wowzer</span><span class="sub-head">We will keep this free cause people are not too bright</span></div></li>
+                        <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Interactive environment</span><span class="sub-head">Experience sending your first transaction or smart contract.</span></div></li>
+                    	
+                    	
+                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Peer networking</span><span class="sub-head">Discuss relevant topics and make new connections.</span></div></li>
+                        <li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Self-paced learning</span><span class="sub-head">Cover topics at your own rate that works for you.</span></div></li>
+                    	<li><img src="<?php echo get_template_directory_uri(); ?>/img/cert-feature.png" class="feature-img"><div><span>Free resources</span><span class="sub-head">Utilize our network of free libraries, tools, and resources.</span></div></li>
+                    	
                     </ul>
                 </div> 
             </div>
         </section>
         
-        <section class="section max-width">
-            <div class="title">
-                <span>CHOOSE YOUR PATH</span>
-                <h2>Custom-tailored courses</h2>
-            </div>
-			<?php echo do_shortcode('[lifterlms_courses category="zz-featured" posts_per_page="-1"]'); ?>
-        </section>
+        
         
 		<!-- single page js / instead of registering functions -->
 		<script src="<?php echo get_template_directory_uri(); ?>/js/parallax.min.js"></script>
