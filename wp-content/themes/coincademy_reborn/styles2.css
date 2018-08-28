@@ -9,8 +9,7 @@ Remove following code from functions.php when this file is removed:;
 
 
 .type-tile-bg p {
-font-size: 14px;
-
+	font-size: 14px;
 }
 
 .category-tile-img {
