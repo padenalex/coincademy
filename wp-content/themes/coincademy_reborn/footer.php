@@ -2,7 +2,7 @@
         	<div class="max-width pure-g vmid ">
         		<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
         			<h3 class="heading">Stay Up-To-Date</h3>
-                     <p>Receive product updates from Coincademy and stay on the top of the latest cryptocurrency news.</p>
+                     <p>Receive updates from Coincademy for the latest in cryptocurrency and blockchain news.</p>
         		</div>
         		<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <!-- Begin MailChimp Signup Form -->
