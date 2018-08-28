@@ -6,6 +6,3 @@ Remove following code from functions.php when this file is removed:;
 	wp_enqueue_style('cc2_general_css'); // Enqueue it!
 
 */
-footer .copyright {
-	color: red;
-}
