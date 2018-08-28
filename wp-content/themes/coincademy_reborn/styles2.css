@@ -1,0 +1,8 @@
+/* temporary styles to be included in sass files in future.
+
+Remove following code from functions.php when this file is removed:;
+	//added second temporary stylesheet
+	wp_register_style('cc2_general_css', get_template_directory_uri() . '/styles2.css', array(), '1.0.0', 'all');
+	wp_enqueue_style('cc2_general_css'); // Enqueue it!
+
+*/

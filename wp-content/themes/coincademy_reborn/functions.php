@@ -224,6 +224,10 @@ function cc_style_enqueue()
 {
     wp_register_style('cc_general_css', get_template_directory_uri() . '/css/styles.css', array(), '1.0.7', 'all');
     wp_enqueue_style('cc_general_css'); // Enqueue it!
+
+    //added second temporary stylesheet
+    wp_register_style('cc2_general_css', get_template_directory_uri() . '/styles2.css', array(), '1.0.0', 'all');
+    wp_enqueue_style('cc2_general_css'); // Enqueue it!
     
     if(is_course()) {
         wp_register_style('scrollbar', get_template_directory_uri() . '/css/OverlayScrollbars.min.css', array(), '1.0.5', 'all');
