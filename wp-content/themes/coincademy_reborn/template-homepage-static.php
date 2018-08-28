@@ -5,7 +5,7 @@
             <div class="pure-g vmid">
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <h1 class="header-title">Learn everything you need to know about <strong>cryptocurrency</strong>.</h1>
-                    <a class="arrow-btn" href="standard-courses/">Get started on your first crypto course</a>
+                    <a class="arrow-btn" href="/standard-courses/">Get started on your first crypto course</a>
                 </div>
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">

@@ -7,6 +7,9 @@ Remove following code from functions.php when this file is removed:;
 
 */
 
+.type-tile-bg {
+	padding: 30px 70px;
+}
 
 .type-tile-bg p {
 	font-size: 14px;
@@ -14,10 +17,6 @@ Remove following code from functions.php when this file is removed:;
 
 .category-tile-img {
     padding: 10px !important;
-}
-
-.express-icon {
-	width: 20px;
 }
 
 .header-title {
