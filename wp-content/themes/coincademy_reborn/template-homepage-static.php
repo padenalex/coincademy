@@ -5,7 +5,7 @@
             <div class="pure-g vmid">
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <h1 class="header-title">Learn everything you need to know about <strong>cryptocurrency</strong>.</h1>
-                    <a class="arrow-btn" href="/coincademy/standard-courses/">Get started on your first crypto course</a>
+                    <a class="arrow-btn" href="/standard-courses/">Get started on your first crypto course</a>
                 </div>
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/img/header_cert.png">
@@ -51,14 +51,14 @@
                          <div class="type-tile-bg type-tile-express">
                             <h3><strong><span>Express courses <img class="express-icon" src="<?php echo get_template_directory_uri(); ?>/img/express_general.png"></span></strong></h3>
                             <p>In a rush? Get started with our daily express courses. Each day, we'll send you a customized email with the most up-to-date information regarding cryptocurrency and blockchain technology. </p>
-                            <a class="green-btn" href="http://localhost/coincademy/express-courses/">BROWSE COURSES</a>
+                            <a class="green-btn" href="http://express-courses/">BROWSE COURSES</a>
                         </div>
                     </div>
                     <div class="pure-u-1 pure-u-lg-1-2 pure-u-md-1-2 type-tile">
                         <div class="type-tile-bg type-tile-standard">
                             <h3><strong><span>Standard courses</span></strong></h3>
                             <p>For those of you who want to gain a more in depth understanding of these topics, jump into one of our full fledged interactive courses. We'll walk you through everything you need to know, step by step.</p>
-                            <a class="green-btn standard-green-btn" href="http://localhost/coincademy/standard-courses/">BROWSE COURSES</a>
+                            <a class="green-btn standard-green-btn" href="http://standard-courses/">BROWSE COURSES</a>
                         </div>
                     </div>
                 </div>
