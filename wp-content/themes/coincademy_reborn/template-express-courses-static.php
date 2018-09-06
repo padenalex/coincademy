@@ -8,7 +8,7 @@
                     <h2>Express Courses <img src="<?php echo get_template_directory_uri(); ?>/img/express_general.png"></h2>
                 </div>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repaatem.
+                In a rush? Get started with our daily express courses. Each day, we'll send you a customized email with the most up-to-date information regarding cryptocurrency and blockchain technology.
                 </p>
             </div>
              <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vmid">
@@ -43,11 +43,11 @@
                 <?php echo do_shortcode('[lifterlms_course_outline course_id="404"]'); ?>
             </div>
         </div>
-        
+
 
 
     </div>
 
     <?php get_template_part( 'components/template', 'standard-courses-footer' ); ?>
-        
+
 <?php get_footer(); ?>
